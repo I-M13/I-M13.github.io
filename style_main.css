@@ -1,0 +1,558 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    z-index: 3;
+    background-color: #d6f5ff;
+    opacity: 85%;
+    padding: 1vw;
+    min-width:min-content;
+    max-width: 100%;
+}
+
+h3{
+    display: flex;
+    align-items:start;
+    min-width:min-content;
+    max-width: 100%;
+    padding: 1vw;
+}
+
+
+body{
+    background-color: white;
+    margin: 0%;
+}
+
+a{
+    padding: 1vw;
+    color: #2946bf;
+    position: relative;
+    left: 25%;
+    opacity: 100%;
+    max-width: min-content;
+}
+
+.container1{
+    position: relative;
+    background-color: #2946bf;
+    color: #f8c134;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.Uni{
+    padding-left: 3vw;
+    margin-bottom: 0.5%;
+    position: relative;
+    left: 220px;
+    max-width: 100px;
+}
+
+.Man{
+    padding-left: 3vw;
+    margin-top: 0%;
+    position: relative;
+    left: 220px;
+    max-width: 100px;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr, 1fr; 
+    grid-template-rows: auto;
+    gap: 10px;
+    background-color: #2946bf;
+    color: #f8c134;
+    max-width: 100%;
+    position: relative;
+    height: 90vh;
+}
+
+.Bsc{
+    font-size: 90px;
+    margin: 0;
+    position: relative;
+    left: 8%;
+    max-width: 200px;
+    top: 35%;
+}
+
+.Econ{
+    font-size: 90px;
+    position: relative;
+    top: -20%;
+    left: 8%;
+    padding: 0%;
+    margin: 0%;
+    max-width: 450px;
+}
+
+.Soc{
+    font-size: 90px;
+    position: relative;
+    bottom: 80%;
+    left: 8%;
+    padding: 0%;
+    margin: 0%;
+    max-width: 350px;
+}
+
+
+.Tricontainer{
+    z-index: 1;
+    position: relative;
+    height: 1px;
+    background-color: #3177fd;
+    left: 508px;
+    width: 1px;
+}
+
+.Triangle {
+    z-index: 1;
+    position: absolute;
+    border-left: 135vh solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 105.3vh solid #3177fd;
+}
+
+.handscontainer{
+    z-index: 2;
+    position: relative;
+    top: -520px;
+    background-color: #3177fd;
+    height: 1px;
+    max-width: 1px;
+    left: 700px;
+}
+
+.hands{
+    z-index: 2;
+    position: absolute;
+    min-height: 500px;
+    width: 500px;
+}
+
+.hatcontainer{
+    position: relative;
+    width: 1px;
+    height: 1px;
+    background-color: #2946bf;
+    top: -102vh;
+    left: 170px;
+}
+
+.Resourcescontainer{
+    position: relative;
+    height: 120vh;
+    background-color: #d6f5ff;
+    color: #f8c134;
+}
+
+.Resources{
+    position: absolute;
+    font-size: 3.5rem;
+    left: 5%;
+}
+
+.hex1{
+    z-index: 1;
+    position: absolute;
+    top: 53vh;
+    left: 29%;
+    width: 20vw;
+    height: 55vh;
+    background-color: #3498db;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transform: rotate(90deg);
+}
+
+.hex2{
+    z-index: 1;
+    position: absolute;
+    top: 10vh;
+    left: 45%;
+    width: 20vw;
+    height: 55vh;
+    background-color: #234388;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transform: rotate(90deg);
+}
+
+.hex3{
+    z-index: 1;
+    position: absolute;
+    top: 57vh;
+    left: 59%;
+    width: 20vw;
+    height: 55vh;
+    background-color: #05006c;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transform: rotate(90deg);
+}
+
+.hexshadow1{
+    position: absolute;
+    top: 53vh;
+    left: 30%;
+    width: 20vw;
+    height: 55vh;
+    background-color: #234388;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transform: rotate(90deg);
+}
+
+.hexshadow2{
+    position: absolute;
+    top: 10vh;
+    left: 46%;
+    width: 20vw;
+    height: 55vh;
+    background-color: #142a59;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transform: rotate(90deg);
+}
+
+.hexshadow3{
+    position: absolute;
+    top: 57vh;
+    left: 60%;
+    width: 20vw;
+    height: 55vh;
+    background-color: #011644;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transform: rotate(90deg);
+}
+
+.trackerparacontainer{
+    text-align: center;
+}
+
+.Trackerpara{
+    z-index: 2;
+    font-size: 1.75rem;
+    position: absolute;
+    left: 30.5vw;
+    max-width: 200px;
+    top: 58vh;
+}
+
+.TrackerButton{
+    position: absolute;
+    z-index: 2;
+    color: #f8c134;
+    top: 92vh;
+    left: 31vw;
+    min-width: 170px;
+    font-size: 1.25rem;
+}
+
+.Careerparacontainer{
+    position: relative;
+}
+
+.Careerpara{
+    z-index: 2;
+    font-size: 1.75rem;
+    position: absolute;
+    left: 48.2vw;
+    max-width: 180px;
+    top: 15vh;
+}
+
+.Careerbutton{
+    z-index: 2;
+    position: absolute;
+    min-width: 130px;
+    color: #f8c134;
+    font-size: 1.25rem;
+    left: 48.5vw;
+    top: 49vh;
+}
+
+.mentalparacontainer{
+    position: relative;
+}
+
+.Mentalpara{
+    z-index: 2;
+    font-size: 1.75rem;
+    position: absolute;
+    left: 60.5vw;
+    max-width: 200px;
+    top: 60vh;
+    text-align: center;
+
+}
+
+.Mentalbutton{
+    z-index: 2;
+    position: absolute;
+    min-width: 130px;
+    color: #f8c134;
+    font-size: 1.25rem;
+    left: 62vw;
+    top: 99vh;
+
+}
+
+.morecontainer{
+    position: relative;
+    left: 85vw;
+    top: 48%;
+    height: 1px;
+    width: 1px;
+}
+
+.more{
+    position: absolute;
+    color: #f8c134;
+    font-size: 3rem;
+    text-decoration: none;
+    left: 0vw;
+}
+
+.arrowtip{
+    position: absolute;
+    top: 12.6vh;
+    left: 9vw;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid #f8c134; 
+  }
+
+  .arrowbase{
+    position: absolute;
+    height: 1vh;
+    width: 10vw;
+    background-color: #f8c134;
+    top: 14vh;
+  }
+
+.whowearecontainer{
+    position: relative;
+    height: 830px;
+}
+
+.whoweare{
+    font-size: 5rem;
+    position: absolute;
+    left: 5%;
+
+}
+
+.whoweareimg{
+    position: absolute;
+    left: 51.5%;
+}
+
+.whowearepara1{
+    position: absolute;
+    width: 450px;
+    font-size: 2.5rem;
+    top: 29.8vh;
+    text-align: left;
+    left: 6vw;
+}
+
+.whowearepara2{
+    position: absolute;
+    width: 400px;
+    font-size: 2.5rem;
+    top: 95vh;
+    text-align: left;
+    left: 6vw;
+}
+
+
+.moreaboutuscontainer{
+    position: relative;
+    height: 900px;
+    background-color: #f6f6f6;
+}
+
+.moreaboutus{
+    position: absolute;
+    font-size: 5rem;
+    left: 30%;
+}
+
+
+.meetcom{
+    position: absolute;
+    top: 85vh;
+    left: 3%;
+}
+
+.contactus{
+    position: absolute;
+    top: 60vh;
+    left: 35.5%;
+}
+
+.learnmore{
+    position: absolute;
+    left: 68%;
+    top: 85vh;
+}
+
+.meetcombutton{
+    position: absolute;
+    color: black;
+    font-size: 2.5rem;
+    min-width: 350px;
+    top: 137vh;
+    left: 2vw;
+}
+
+.contactus2{
+    position: absolute;
+    color: black;
+    min-width: 180px;
+    font-size: 2.5rem;
+    left: 40vw;
+    top: 40vh;
+}
+
+.learnmorebutton{
+    position: absolute;
+    color: black;
+    font-size: 2.5rem;
+    min-width: 190px;
+    top: 137vh;
+    left: 72vw;
+}
+
+.Newsupdatescontainer{
+    position: relative;
+    height: 900px;
+    background-color: #d6f5ff;
+}
+
+.Newsupdates{
+    position: absolute;
+    font-size: 4rem;
+    left: 65%;
+    top: 60vh;
+    color: #f8c134;
+}
+
+.Newsroom{
+    position: absolute;
+    height: 230px;
+    width: 230px;
+    background-color: #168ff2;
+    transform: rotate(45deg);
+    left: 24%;
+    top: 10%;
+}
+
+.ReutersFinance{
+    position: absolute;
+    height: 230px;
+    width: 230px;
+    background-color: #0076e2;
+    transform: rotate(45deg);
+    left: 38%;
+    top: 35%;
+}
+
+.podcast2{
+    position: absolute;
+    height: 230px;
+    width: 230px;
+    background-color: #4005bd;
+    transform: rotate(45deg);
+    left: 10%;
+    top: 35%;
+}
+
+.Newsletter2{
+    position: absolute;
+    height: 230px;
+    width: 230px;
+    background-color: #170073;
+    transform: rotate(45deg);
+    left: 24%;
+    top: 58%;
+}
+
+.Newspara{
+    text-align: center;
+    font-size: 1.75rem;
+    position: absolute;
+    color: #f8c134;
+    max-width: 250px;
+    top: 20vh;
+    left: 22.75vw;
+}
+
+.Financepara{
+    text-align: center;
+    font-size: 1.75rem;
+    position: absolute;
+    color: #f8c134;
+    max-width: 200px;
+    top: 58vh;
+    left: 39vw;
+}
+
+.Podcastpara{
+    text-align: center;
+    font-size: 1.5rem;
+    position: absolute;
+    color: #f8c134;
+    max-width: 240px;
+    top: 63vh;
+    left: 9.5vw;
+}
+
+.Newsletterpara{
+    text-align: center;
+    font-size: 1.75rem;
+    position: absolute;
+    color: #f8c134;
+    max-width: 220px;
+    top: 98.5vh;
+    left: 24.5vw;
+}
+
+.newsroombutton{
+    font-size: 1.2rem;
+    position: absolute;
+    color: #f8c134;
+    min-width: 100px;
+    left: 28vw;
+    top: 48vh;
+}
+
+.financebutton{
+    font-size: 1.2rem;
+    position: absolute;
+    color: #f8c134;
+    min-width: 150px;
+    left: 40.5vw;
+    top: 81vh;
+}
+
+.podcastbutton2{
+    font-size: 1.2rem;
+    position: absolute;
+    color: #f8c134;
+    min-width: 150px;
+    left: 15vw;
+    top: 83vh;
+}
+
+.newsletterbutton{
+    font-size: 1.2rem;
+    position: absolute;
+    color: #f8c134;
+    min-width: 150px;
+    left: 28vw;
+    top: 121vh;
+}
