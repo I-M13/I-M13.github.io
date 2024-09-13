@@ -857,7 +857,7 @@ a{
     .Trackerpara{
         grid-column: 1/1;
         grid-row: 3/3;
-        font-size: 0.75rem;
+        font-size: 0.6rem;
         max-width: 70px;
         left: 96%;
         top: -16%;
