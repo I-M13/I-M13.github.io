@@ -714,19 +714,19 @@ a{
     }
 
     .contactbutton{
-        min-width: 30px;
-        max-width: 30px;
+        min-width: 33px;
+        max-width: 33px;
     }
 
     .joinbutton{
-        min-width: 20px;
-        max-width: 20px;
+        min-width: 22px;
+        max-width: 22px;
         left: 0%;
     }
 
     .aboutusbutton{
-        min-width: 30px;
-        max-width: 30px;
+        min-width: 33px;
+        max-width: 33px;
     }
 
     .welcomecontainer{
@@ -1109,11 +1109,13 @@ a{
     .podcastbutton2{
         font-size: 0.4rem;
         left: 26.5%;
+        top: 40%;
     }
 
     .newsletterbutton{
         font-size: 0.4rem;
         left: 48%;
+        top: 65%;
     }
     
 }
