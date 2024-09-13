@@ -709,7 +709,7 @@ a{
 
     nav{
         font-size: 0.4rem;
-        grid-template-columns: 0.9fr repeat(8, 1fr) 1.75fr;
+        grid-template-columns: 0.9fr repeat(8, 1fr) 1fr;
 
     }
 
@@ -952,7 +952,7 @@ a{
     }
 
     .whowearepara2{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         max-width: 100px;
         left: 25%;
         top: 60%;
@@ -1042,4 +1042,74 @@ a{
         top: 45%;
     }
 
+    .Newsupdates{
+        font-size: 1.5rem;
+        max-height: 50px;
+        left: 5%;
+        text-align: center;
+    }
+
+    .Newsroom{
+        height: 90px;
+        width: 90px;
+    }
+
+    .ReutersFinance{
+        height: 90px;
+        width: 90px;
+        left: 65%;
+    }
+
+    .podcast2{
+        height: 90px;
+        width: 90px;
+    }
+
+    .Newsletter2{
+        height: 90px;
+        width: 90px;
+    }
+
+    .Newspara{
+        font-size: 0.6rem;
+        max-width: 60px;
+        left: 40%;
+        bottom: 15%;
+    }
+
+    .Financepara{
+        font-size: 0.6rem;
+        max-width: 60px;
+        left: 70%;
+    }
+
+    .Podcastpara{
+        font-size: 0.6rem;
+        max-width: 80px;
+        left: 17%;
+    }
+
+    .Newsletterpara{
+        font-size: 0.6rem;
+        max-width: 70px;
+        left: 42%;
+        top: 45%;
+    }
+
+    .newsroombutton{
+        font-size: 0.4rem;
+    }
+
+    .financebutton{
+        font-size: 0.4rem;
+    }
+
+    .podcastbutton2{
+        font-size: 0.4rem;
+    }
+
+    .newsletterbutton{
+        font-size: 0.4rem;
+    }
+    
 }
