@@ -453,7 +453,6 @@ a{
     max-width: 350px;
     grid-column: 1/1;
     grid-row: 3/3;
-    left: 0.1%;
     top: 15%;
     max-height: 100px;
 }
@@ -648,3 +647,5 @@ a{
     top: 65%;
     max-height: 40px;
 }
+
+@media (m)
