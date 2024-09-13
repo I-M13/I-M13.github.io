@@ -866,48 +866,49 @@ a{
     .Careerpara{
         grid-column: 2/2;
         grid-row: 2/2;
-        font-size: 0.75rem;
+        font-size: 0.6rem;
         max-width: 80px;
         left: 45%;
+        bottom: 10%;
     }
 
     .Mentalpara{
         grid-column: 3/3;
         grid-row: 3/3;
-        font-size: 0.75rem;
-        max-width: 90px;
-        right: 30%;
-        bottom: 30%;
+        font-size: 0.6rem;
+        max-width: 70px;
+        right: 21%;
+        bottom: 25%;
     }
 
     .TrackerButton{
         grid-column: 1/1;
         grid-row: 3/3;
-        font-size: 0.5rem;
-        left: 100%;
+        font-size: 0.4rem;
+        left: 105%;
         top: 43%;
     }
 
     .Careerbutton{
         grid-column: 2/2;
         grid-row: 2/2;
-        font-size: 0.5rem;
+        font-size: 0.4rem;
         top: 43%;
-        left: 53%;
+        left: 56%;
     }
 
     .Mentalbutton{
         grid-column: 3/3;
         grid-row: 3/3;
-        font-size: 0.5rem;
-        left: -19%;
+        font-size: 0.4rem;
+        left: -13%;
         top: 40%;
     }
 
     .more{
         grid-column: 3/3;
         grid-row: 2/2;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .arrowbase{
