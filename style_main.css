@@ -34,136 +34,136 @@ a{
     max-width: min-content;
 }
 
-.container1{
-    position: relative;
+.welcomecontainer{
     background-color: #2946bf;
-    color: #f8c134;
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-}
-
-.Uni{
-    padding-left: 3vw;
-    margin-bottom: 0.5%;
-    position: relative;
-    left: 220px;
-    max-width: 100px;
-}
-
-.Man{
-    padding-left: 3vw;
-    margin-top: 0%;
-    position: relative;
-    left: 220px;
-    max-width: 100px;
-}
-
-.container2{
     display: grid;
-    grid-template-columns: 1fr 1fr, 1fr; 
-    grid-template-rows: auto;
-    gap: 10px;
-    background-color: #2946bf;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
     color: #f8c134;
-    max-width: 100%;
-    position: relative;
-    height: 90vh;
-}
-
-.Bsc{
-    font-size: 90px;
-    margin: 0;
-    position: relative;
-    left: 8%;
-    max-width: 200px;
-    top: 35%;
-}
-
-.Econ{
-    font-size: 90px;
-    position: relative;
-    top: -20%;
-    left: 8%;
-    padding: 0%;
-    margin: 0%;
-    max-width: 450px;
-}
-
-.Soc{
-    font-size: 90px;
-    position: relative;
-    bottom: 80%;
-    left: 8%;
-    padding: 0%;
-    margin: 0%;
-    max-width: 350px;
-}
-
-
-.Tricontainer{
-    z-index: 1;
-    position: relative;
-    height: 1px;
-    background-color: #3177fd;
-    left: 508px;
-    width: 1px;
-}
-
-.Triangle {
-    z-index: 1;
-    position: absolute;
-    border-left: 135vh solid transparent;
-    border-right: 0px solid transparent;
-    border-bottom: 105.3vh solid #3177fd;
-}
-
-.handscontainer{
-    z-index: 2;
-    position: relative;
-    top: -520px;
-    background-color: #3177fd;
-    height: 1px;
-    max-width: 1px;
-    left: 700px;
-}
-
-.hands{
-    z-index: 2;
-    position: absolute;
-    min-height: 500px;
-    width: 500px;
 }
 
 .hatcontainer{
     position: relative;
-    width: 1px;
-    height: 1px;
-    background-color: #2946bf;
-    top: -102vh;
-    left: 170px;
+    grid-column: 1/1;
+    grid-row: 1/1;
 }
 
-.Resourcescontainer{
+.hat{
     position: relative;
-    height: 120vh;
+    padding-left: 5%;
+    left: 35%;
+    top: 10%;
+}
+
+.locationcontainer{
+    position: relative;
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
+.Uni{
+    position: relative;
+    left: 60%;
+    margin-bottom: 0%;
+}
+
+.Man{
+    position: relative;
+    left: 61%;
+    margin-top: 1%;
+}
+
+.Bsc{
+    position: relative;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    padding-left: 5%;
+    font-size: 5rem;
+    left: 25%;
+    max-height: 100px; 
+    margin: 0%;
+    padding: 0%;
+    max-width: 150px;
+}
+
+.Econ{
+    position: relative;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    padding-left: 5%;
+    font-size: 5rem;
+    top: 20%;
+    left: 25%;
+    max-height: 100px; 
+    margin: 0%;
+    padding: 0%;
+    max-width: 380px;
+}
+
+.Soc{
+    position: relative;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    padding-left: 5%;
+    font-size: 5rem;
+    top: 40%;
+    left: 25%;
+    max-height: 100px; 
+    margin: 0%;
+    padding: 0%;
+    max-width: 150px;
+}
+
+.Triangle {
+    position: relative;
+    left: 11.7%;
+    border-left: 50rem solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 40rem solid #3177fd;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.hands{
+    position: relative;
+    grid-column: 2/2;
+    grid-row: 2/3;
+    bottom: 10%;
+    left: 35%;
+    height: 500px;
+    width: 500px;
+}
+
+.resourcescontainer{
     background-color: #d6f5ff;
     color: #f8c134;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-rows: 2fr 2.5fr 2.5fr;
 }
 
-.Resources{
-    position: absolute;
-    font-size: 3.5rem;
-    left: 5%;
+.resources{
+    position: relative;
+    font-size: 4rem;
+    padding: 0%;
+    margin: 0%;
+    max-width: 290px;
+    grid-column: 1/1;
+    grid-row: 1/1;
+    left: 30%;
+    top: 25%;
+    max-height: 100px;
 }
 
 .hex1{
     z-index: 1;
-    position: absolute;
-    top: 53vh;
-    left: 29%;
-    width: 20vw;
-    height: 55vh;
+    grid-column: 2/2;
+    grid-row: 3/3;
+    position: relative;
+    bottom: 35%;
+    left: 1%;
+    width: 265px;
+    height: 330px;
     background-color: #3498db;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     transform: rotate(90deg);
@@ -171,11 +171,13 @@ a{
 
 .hex2{
     z-index: 1;
-    position: absolute;
-    top: 10vh;
-    left: 45%;
-    width: 20vw;
-    height: 55vh;
+    grid-column: 2/3;
+    grid-row: 2/2;
+    position: relative;
+    bottom: 35%;
+    left: 40%;
+    width: 265px;
+    height: 330px;
     background-color: #234388;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     transform: rotate(90deg);
@@ -183,282 +185,343 @@ a{
 
 .hex3{
     z-index: 1;
-    position: absolute;
-    top: 57vh;
-    left: 59%;
-    width: 20vw;
-    height: 55vh;
+    grid-column: 3/3;
+    grid-row: 3/3;
+    position: relative;
+    bottom: 33%;
+    right: 35%;
+    width: 265px;
+    height: 330px;
     background-color: #05006c;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     transform: rotate(90deg);
 }
 
 .hexshadow1{
-    position: absolute;
-    top: 53vh;
-    left: 30%;
-    width: 20vw;
-    height: 55vh;
+    position: relative;
+    grid-column: 2/2;
+    grid-row: 3/3;
+    bottom: 35%;
+    left: 5%;
+    width: 264.5px;
+    height: 330px;
     background-color: #234388;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     transform: rotate(90deg);
 }
 
 .hexshadow2{
-    position: absolute;
-    top: 10vh;
-    left: 46%;
-    width: 20vw;
-    height: 55vh;
+    position: relative;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    bottom: 35%;
+    left: 44%;
+    width: 265px;
+    height: 330px;
     background-color: #142a59;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     transform: rotate(90deg);
 }
 
 .hexshadow3{
-    position: absolute;
-    top: 57vh;
-    left: 60%;
-    width: 20vw;
-    height: 55vh;
+    position: relative;
+    grid-column: 3/3;
+    grid-row: 3/3;
+    bottom: 33%;
+    right: 29%;
+    width: 265px;
+    height: 330px;
     background-color: #011644;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     transform: rotate(90deg);
 }
 
-.trackerparacontainer{
-    text-align: center;
-}
-
 .Trackerpara{
     z-index: 2;
     font-size: 1.75rem;
-    position: absolute;
-    left: 30.5vw;
+    position: relative;
     max-width: 200px;
-    top: 58vh;
+    grid-column: 2/2;
+    grid-row: 3/3;
+    padding: 0%;
+    margin: 0%;
+    max-height: 155px;
+    bottom: 12%;
+    left: 6%;
+    text-align: center;
 }
 
 .TrackerButton{
-    position: absolute;
+    grid-column: 2/2;
+    grid-row: 3/3;
+    top: 42%;
+    left: 9.5%;
+    padding: 0%;
+    max-height: 40px;
+    position: relative;
     z-index: 2;
     color: #f8c134;
-    top: 92vh;
-    left: 31vw;
-    min-width: 170px;
+    max-width: 170px;
     font-size: 1.25rem;
-}
-
-.Careerparacontainer{
-    position: relative;
 }
 
 .Careerpara{
     z-index: 2;
     font-size: 1.75rem;
-    position: absolute;
-    left: 48.2vw;
+    position: relative;
     max-width: 180px;
-    top: 15vh;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    left: 47.3%;
+    bottom: 18%;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    max-height: 160px;
 }
 
 .Careerbutton{
     z-index: 2;
-    position: absolute;
-    min-width: 130px;
+    position: relative;
+    max-width: 130px;
     color: #f8c134;
     font-size: 1.25rem;
-    left: 48.5vw;
-    top: 49vh;
-}
-
-.mentalparacontainer{
-    position: relative;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    top: 35%;
+    max-height: 40px;
+    left: 51%;
+    padding: 0%;
+    margin: 0%;
 }
 
 .Mentalpara{
     z-index: 2;
     font-size: 1.75rem;
-    position: absolute;
-    left: 60.5vw;
+    position: relative;
     max-width: 200px;
-    top: 60vh;
     text-align: center;
-
+    grid-column: 3/3;
+    grid-row: 3/3;
+    bottom: 25%;
+    right: 27%;
 }
 
 .Mentalbutton{
     z-index: 2;
-    position: absolute;
-    min-width: 130px;
+    position: relative;
+    max-width: 130px;
     color: #f8c134;
     font-size: 1.25rem;
-    left: 62vw;
-    top: 99vh;
-
-}
-
-.morecontainer{
-    position: relative;
-    left: 85vw;
-    top: 48%;
-    height: 1px;
-    width: 1px;
+    grid-column: 3/3;
+    grid-row: 3/3;
+    top: 42%;
+    left: -21%;
+    max-height: 50px;
 }
 
 .more{
-    position: absolute;
+    position: relative;
     color: #f8c134;
     font-size: 3rem;
     text-decoration: none;
-    left: 0vw;
+    grid-column: 3/3;
+    grid-row: 2/2;
+    top: 25%;
+    right: 35%;
+    max-height: 50px;
 }
 
 .arrowtip{
-    position: absolute;
-    top: 12.6vh;
-    left: 9vw;
+    position: relative;
+    top: 45.7%;
+    left: 55%;
+    grid-column: 3/3;
+    grid-row: 2/2;
     width: 0;
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-left: 20px solid #f8c134; 
-  }
-
-  .arrowbase{
-    position: absolute;
-    height: 1vh;
-    width: 10vw;
-    background-color: #f8c134;
-    top: 14vh;
-  }
-
-.whowearecontainer{
-    position: relative;
-    height: 830px;
 }
 
-.whoweare{
-    font-size: 5rem;
-    position: absolute;
-    left: 5%;
 
+  .arrowbase{
+    position: relative;
+    top: 48%;
+    left: 27%;
+    height: 5px;
+    width: 120px;
+    background-color: #f8c134;
+    grid-column: 3/3;
+    grid-row: 2/2;
+  }
+
+
+.aboutuscontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 8fr 2fr;
+  }
+
+.whowearetitle{
+    position: relative;
+    grid-row: 2/2;
+    grid-column: 1/1;
+    margin: 0%;
+    padding: 0%;
+    font-size: 4rem;
+    left: 20%;
 }
 
 .whoweareimg{
-    position: absolute;
-    left: 51.5%;
+    position: relative;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    left: 3.3%;
 }
 
 .whowearepara1{
-    position: absolute;
+    position: relative;
     width: 450px;
     font-size: 2.5rem;
-    top: 29.8vh;
     text-align: left;
-    left: 6vw;
+    grid-row: 2/2;
+    grid-column: 1/1;
+    left: 18%;
+    top: 10%;
+    max-height: 280px;
 }
 
 .whowearepara2{
-    position: absolute;
+    position: relative;
     width: 400px;
     font-size: 2.5rem;
-    top: 95vh;
     text-align: left;
-    left: 6vw;
+    grid-row: 2/2;
+    grid-column: 1/1;
+    left: 18%;
+    top: 55%;
+    max-height: 250px;
 }
-
 
 .moreaboutuscontainer{
     position: relative;
-    height: 900px;
     background-color: #f6f6f6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
 }
 
 .moreaboutus{
-    position: absolute;
+    position: relative;
     font-size: 5rem;
-    left: 30%;
+    grid-column: 2/2;
+    grid-row: 1/1;
+    min-width: 500px;
 }
 
 
 .meetcom{
-    position: absolute;
-    top: 85vh;
-    left: 3%;
+    position: relative;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    left: 11%;
+    top: 40%;
 }
 
 .contactus{
-    position: absolute;
-    top: 60vh;
-    left: 35.5%;
+    position: relative;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    left: 15%;
+    top: 10%;
 }
 
 .learnmore{
-    position: absolute;
-    left: 68%;
-    top: 85vh;
+    position: relative;
+    grid-column: 3/3;
+    grid-row: 2/2;
+    right: 3%;
+    top: 40%;
 }
 
 .meetcombutton{
-    position: absolute;
+    position: relative;
     color: black;
     font-size: 2.5rem;
-    min-width: 350px;
-    top: 137vh;
-    left: 2vw;
+    max-width: 350px;
+    grid-column: 1/1;
+    grid-row: 3/3;
+    left: 0.1%;
+    top: 15%;
+    max-height: 100px;
 }
 
 .contactus2{
-    position: absolute;
+    position: relative;
     color: black;
     min-width: 180px;
     font-size: 2.5rem;
-    left: 40vw;
-    top: 40vh;
+    grid-column: 2/2;
+    grid-row: 1/1;
+    right: 1%;
+    top: 75%;
+    max-height: 100px;
 }
 
 .learnmorebutton{
-    position: absolute;
+    position: relative;
     color: black;
     font-size: 2.5rem;
     min-width: 190px;
-    top: 137vh;
-    left: 72vw;
+    grid-column: 3/3;
+    grid-row: 3/3;
+    top: 15%;
+    left: 8%;
+    max-height: 100px;
 }
 
 .Newsupdatescontainer{
     position: relative;
-    height: 900px;
     background-color: #d6f5ff;
-}
-
-.Newsupdates{
-    position: absolute;
-    font-size: 4rem;
-    left: 65%;
-    top: 60vh;
+    display: grid;
+    grid-template-columns: 3fr 1.4fr;
+    grid-template-rows: 2fr 7fr;
     color: #f8c134;
 }
 
+.Newsupdates{
+    position: relative;
+    font-size: 4rem;
+    color: #f8c134;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    max-height: 150px
+}
+
 .Newsroom{
-    position: absolute;
+    position: relative;
     height: 230px;
     width: 230px;
     background-color: #168ff2;
     transform: rotate(45deg);
-    left: 24%;
-    top: 10%;
+    grid-column: 1/1;
+    grid-row: 1/2;
+    left: 35%;
+    top: 45%;
 }
 
 .ReutersFinance{
-    position: absolute;
+    position: relative;
     height: 230px;
     width: 230px;
     background-color: #0076e2;
     transform: rotate(45deg);
-    left: 38%;
-    top: 35%;
+    grid-row: 2/2;
+    grid-column: 1/1;
+    left: 62%;
+    top: 16%;
 }
 
 .podcast2{
@@ -467,8 +530,10 @@ a{
     width: 230px;
     background-color: #4005bd;
     transform: rotate(45deg);
-    left: 10%;
-    top: 35%;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    left: 15%;
+    top: 17%;
 }
 
 .Newsletter2{
@@ -477,82 +542,109 @@ a{
     width: 230px;
     background-color: #170073;
     transform: rotate(45deg);
-    left: 24%;
-    top: 58%;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    top: 45%;
+    left: 38%;
 }
 
 .Newspara{
     text-align: center;
     font-size: 1.75rem;
-    position: absolute;
+    position: relative;
     color: #f8c134;
     max-width: 250px;
-    top: 20vh;
-    left: 22.75vw;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    left: 34%;
+    bottom: 12%;
+    max-height: 150px
 }
 
 .Financepara{
     text-align: center;
     font-size: 1.75rem;
-    position: absolute;
+    position: relative;
     color: #f8c134;
     max-width: 200px;
-    top: 58vh;
-    left: 39vw;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    left: 64%;
+    top: 18%;
+    max-height: 100px
 }
 
 .Podcastpara{
     text-align: center;
     font-size: 1.5rem;
-    position: absolute;
+    position: relative;
     color: #f8c134;
-    max-width: 240px;
-    top: 63vh;
-    left: 9.5vw;
+    max-width: 210px;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    left: 16%;
+    top: 21%;
+    max-height: 150px
 }
 
 .Newsletterpara{
     text-align: center;
     font-size: 1.75rem;
-    position: absolute;
+    position: relative;
     color: #f8c134;
     max-width: 220px;
-    top: 98.5vh;
-    left: 24.5vw;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    top: 49%;
+    left: 38.6%;
+    max-height: 100px
 }
 
 .newsroombutton{
     font-size: 1.2rem;
-    position: absolute;
+    position: relative;
     color: #f8c134;
     min-width: 100px;
-    left: 28vw;
-    top: 48vh;
+    max-height: 50px;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    left: 41.5%;
+    top: 8%;
+    max-height: 40px;
 }
 
 .financebutton{
     font-size: 1.2rem;
-    position: absolute;
+    position: relative;
     color: #f8c134;
     min-width: 150px;
-    left: 40.5vw;
-    top: 81vh;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    left: 67%;
+    top: 35%;
+    max-height: 40px;
 }
 
 .podcastbutton2{
     font-size: 1.2rem;
-    position: absolute;
+    position: relative;
     color: #f8c134;
     min-width: 150px;
-    left: 15vw;
-    top: 83vh;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    left: 23%;
+    top: 38%;
+    max-height: 40px;
 }
 
 .newsletterbutton{
     font-size: 1.2rem;
-    position: absolute;
+    position: relative;
     color: #f8c134;
     min-width: 150px;
-    left: 28vw;
-    top: 121vh;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    left: 45%;
+    top: 65%;
+    max-height: 40px;
 }
