@@ -946,15 +946,16 @@ a{
     }
 
     .whowearepara1{
-        font-size: 1rem;
-        max-width: 200px;
-        left: 7%;
+        font-size: 0.7rem;
+        max-width: 100px;
+        left: 25%;
     }
 
     .whowearepara2{
-        font-size: 1rem;
-        max-width: 200px;
-        left: 7%;
+        font-size: 0.8rem;
+        max-width: 100px;
+        left: 25%;
+        top: 60%;
     }
 
     .moreaboutuscontainer{
@@ -965,7 +966,7 @@ a{
 
     .moreaboutus{
         position: relative;
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         grid-column: 2/2;
         grid-row: 1/1;
         min-width: 190px;
@@ -982,7 +983,7 @@ a{
         grid-column: 1/1;
         grid-row: 2/2;
         height: 10vh;
-        left: 30%;
+        left: 20%;
     }
 
     .contactus{
@@ -990,7 +991,7 @@ a{
         grid-column: 2/2;
         grid-row: 2/2;
         height: 10vh;
-        left: 40%;
+        left: 25%;
     }
 
     .learnmore{
@@ -998,7 +999,7 @@ a{
         grid-column: 3/3;
         grid-row: 2/2;
         height: 10vh;
-        left: 8%;
+        right: 9%;
     }
     .meetcombutton{
         position: relative;
@@ -1010,7 +1011,7 @@ a{
         top: 37%;
         min-height: 40px;
         max-height: 40px;
-        left: 25%;
+        left: 16%;
         text-align: center;
     }
 
@@ -1021,7 +1022,7 @@ a{
         font-size: 1rem;
         grid-column: 2/2;
         grid-row: 1/1;
-        left: 39%;
+        left: 33%;
         top: 70%;
         min-height: 20px;
         max-height: 20px;
@@ -1037,7 +1038,7 @@ a{
         max-height: 30px;
         padding: 0%;
         min-width: 100px;
-        left: 1%;
+        left: -3%;
         top: 45%;
     }
 
