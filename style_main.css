@@ -11,14 +11,66 @@ header{
     max-width: 100%;
 }
 
-h3{
-    display: flex;
-    align-items:start;
-    min-width:min-content;
-    max-width: 100%;
-    padding: 1vw;
+nav{
+    display: grid;
+    grid-template-columns: 1.75fr repeat(8, 1fr) 1.75fr;
+    grid-template-rows: 1fr;
+    overflow: hidden;
+    font-size: 1.2rem;
+    place-items: center;
 }
 
+.eventsbutton{
+    grid-column: 2/2;
+    grid-row: 1/1;
+    left: 0%;
+}
+
+.newsbutton{
+    grid-column: 3/3;
+    grid-row: 1/1;
+    left: 0%;
+}
+
+.joinbutton{
+    grid-column: 5/5;
+    grid-row: 1/1;
+    min-width: 70px;
+    left: 5%;
+}
+
+.aboutusbutton{
+    grid-column: 8/8;
+    grid-row: 1/1;
+    min-width: 80px;
+    left: 0%;
+}
+
+.contactbutton{
+    grid-column: 4/4;
+    grid-row: 1/1;
+    min-width: 90px;
+    left: 0%;
+}
+
+.resourcebutton{
+    grid-column: 6/6;
+    grid-row: 1/1;
+    left: 0%;
+
+}
+
+.podcastbutton{
+    grid-column: 7/7;
+    grid-row: 1/1;
+    left: 0%;
+}
+
+.sponsorbutton{
+    grid-column: 9/9;
+    grid-row: 1/1;
+    left: 0%;
+}
 
 body{
     background-color: white;
@@ -358,11 +410,12 @@ a{
   }
 
 
-.aboutuscontainer{
+.whowearecontainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 8fr 2fr;
   }
+
 
 .whowearetitle{
     position: relative;
@@ -648,4 +701,341 @@ a{
     max-height: 40px;
 }
 
-@media (m)
+@media (max-width:450px) and (max-height:950px){
+
+    header{
+        overflow: hidden;
+    }
+
+    nav{
+        font-size: 0.6rem;
+    }
+
+    .contactbutton{
+        min-width: 50px;
+        max-width: 50px;
+    }
+
+    .joinbutton{
+        min-width: 30px;
+        max-width: 30px;
+        left: 0%;
+    }
+
+    .aboutusbutton{
+        min-width: 40px;
+        max-width: 40px;
+    }
+
+    .welcomecontainer{
+        max-width: 100%;
+        min-width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr;
+        overflow: hidden;
+    }
+
+    .hat{
+        left: 5%;
+        height: 10%;
+        top: 6%;
+    }
+
+    .Uni{
+        left: 20%;
+        font-size: 75%;
+        bottom: 1%;
+    }
+
+    .Man{
+        left: 21%;
+        font-size: 75%;
+        bottom: 1%;
+    }
+
+    .Bsc{
+        font-size: 2rem;
+        left: 5%;
+        top: 35%;
+        grid-row: 1/1;
+        grid-column: 1/1;
+    }
+
+    .Econ{
+        font-size: 2rem;
+        left: 5%;
+        top: 47%;
+        grid-row: 1/1;
+        grid-column: 1/1;
+    }
+
+    .Soc{
+        font-size: 2rem;
+        left: 5%;
+        top: 59%;
+        grid-row: 1/1;
+        grid-column: 1/1;
+    }
+
+    .Triangle {
+        border-left: 16rem solid transparent;
+        border-right: 0px solid transparent;
+        border-bottom: 15rem solid #3177fd;
+        grid-column: 1/1;
+        grid-row: 1/1;
+        left: 40.5%;
+        max-width: fit-content
+    }
+
+    .hands{
+        position: relative;
+        grid-column: 1/1;
+        grid-row: 1/1;
+        height: 150px;
+        width: 150px;
+        top: 25%;
+        left: 55%;
+    }
+
+    .resourcescontainer{
+        display: grid;
+        grid-template-columns: 1fr, 1fr,1fr;
+        grid-template-rows: 1fr,1fr;
+        overflow: hidden;
+    }
+
+    .resources{
+        font-size: 1.5rem;
+        grid-column: 1/1;
+        grid-row: 1/1;
+    }
+
+    .hex1{
+        left: 85%;
+        grid-column: 1/1;
+        grid-row: 3/3;
+        height: 120px;
+        width: 96.4px;
+    }
+
+    .hex2{
+        grid-column: 2/2;
+        grid-row: 2/2;
+        height: 120px;
+        width: 96.4px;
+    }
+
+    .hex3{
+        grid-column: 3/3;
+        grid-row: 3/3;
+        height: 120px;
+        width: 96.4px;
+    }
+
+    .hexshadow1{
+        left: 92%;
+        grid-column: 1/1;
+        grid-row: 3/3;
+        height: 120px;
+        width: 96.4px;
+    }
+
+    .hexshadow2{
+        grid-column: 2/2;
+        grid-row: 2/2;
+        height: 120px;
+        width: 96.4px;
+    }
+
+    .hexshadow3{
+        grid-column: 3/3;
+        grid-row: 3/3;
+        height: 120px;
+        width: 96.4px;
+    }
+
+    .Trackerpara{
+        grid-column: 1/1;
+        grid-row: 3/3;
+        font-size: 0.75rem;
+        max-width: 70px;
+        left: 96%;
+        top: -16%;
+    }
+
+    .Careerpara{
+        grid-column: 2/2;
+        grid-row: 2/2;
+        font-size: 0.75rem;
+        max-width: 80px;
+        left: 45%;
+    }
+
+    .Mentalpara{
+        grid-column: 3/3;
+        grid-row: 3/3;
+        font-size: 0.75rem;
+        max-width: 90px;
+        right: 30%;
+        bottom: 30%;
+    }
+
+    .TrackerButton{
+        grid-column: 1/1;
+        grid-row: 3/3;
+        font-size: 0.5rem;
+        left: 100%;
+        top: 43%;
+    }
+
+    .Careerbutton{
+        grid-column: 2/2;
+        grid-row: 2/2;
+        font-size: 0.5rem;
+        top: 43%;
+        left: 53%;
+    }
+
+    .Mentalbutton{
+        grid-column: 3/3;
+        grid-row: 3/3;
+        font-size: 0.5rem;
+        left: -19%;
+        top: 40%;
+    }
+
+    .more{
+        grid-column: 3/3;
+        grid-row: 2/2;
+        font-size: 1.5rem;
+    }
+
+    .arrowbase{
+        grid-column: 3/3;
+        grid-row: 2/2;
+        height: 2px;
+        width: 48px;
+        top: 50%;
+    }
+
+    .arrowtip{
+        grid-column: 3/3;
+        grid-row: 2/2;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 10px solid #f8c134; 
+        left: 65%;
+        top: 47.5%;
+    }
+
+    .whowearecontainer{
+        overflow: hidden;
+    }
+
+    .whowearetitle{
+        font-size: 1.5rem;
+        left: 25%;
+    }
+
+    .whoweareimg{
+        height:60vw;
+        left: 9.6%;
+    }
+
+    .whowearepara1{
+        font-size: 1rem;
+        max-width: 200px;
+        left: 7%;
+    }
+
+    .whowearepara2{
+        font-size: 1rem;
+        max-width: 200px;
+        left: 7%;
+    }
+
+    .moreaboutuscontainer{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 0.5fr;
+        overflow: hidden;
+    }
+
+    .moreaboutus{
+        position: relative;
+        font-size: 1.75rem;
+        grid-column: 2/2;
+        grid-row: 1/1;
+        min-width: 190px;
+        max-width: 190px;
+        max-height: 40px;
+        padding: 0%;
+        margin: 0%;
+        left: 12%;
+        top: 15%;
+    }
+
+    .meetcom{
+        position: relative;
+        grid-column: 1/1;
+        grid-row: 2/2;
+        height: 10vh;
+        left: 30%;
+    }
+
+    .contactus{
+        position: relative;
+        grid-column: 2/2;
+        grid-row: 2/2;
+        height: 10vh;
+        left: 40%;
+    }
+
+    .learnmore{
+        position: relative;
+        grid-column: 3/3;
+        grid-row: 2/2;
+        height: 10vh;
+        left: 8%;
+    }
+    .meetcombutton{
+        position: relative;
+        color: black;
+        font-size: 1rem;
+        max-width: 350px;
+        grid-column: 1/1;
+        grid-row: 3/3;
+        top: 37%;
+        min-height: 40px;
+        max-height: 40px;
+        left: 25%;
+        text-align: center;
+    }
+
+    .contactus2{
+        position: relative;
+        color: black;
+        min-width: 80px;
+        font-size: 1rem;
+        grid-column: 2/2;
+        grid-row: 1/1;
+        left: 39%;
+        top: 70%;
+        min-height: 20px;
+        max-height: 20px;
+    }
+
+    .learnmorebutton{
+        position: relative;
+        color: black;
+        font-size: 1.2rem;
+        max-width: 100px;
+        grid-column: 3/3;
+        grid-row: 3/3;
+        max-height: 30px;
+        padding: 0%;
+        min-width: 100px;
+        left: 1%;
+        top: 45%;
+    }
+
+}
