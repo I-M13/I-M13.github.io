@@ -708,25 +708,25 @@ a{
     }
 
     nav{
-        font-size: 0.5rem;
-        grid-template-columns: 0.5fr repeat(8, 1fr) 1.75fr;
+        font-size: 0.4rem;
+        grid-template-columns: 0.9fr repeat(8, 1fr) 1.75fr;
 
     }
 
     .contactbutton{
-        min-width: 40px;
-        max-width: 40px;
+        min-width: 30px;
+        max-width: 30px;
     }
 
     .joinbutton{
-        min-width: 30px;
-        max-width: 30px;
+        min-width: 20px;
+        max-width: 20px;
         left: 0%;
     }
 
     .aboutusbutton{
-        min-width: 40px;
-        max-width: 40px;
+        min-width: 30px;
+        max-width: 30px;
     }
 
     .welcomecontainer{
@@ -887,7 +887,7 @@ a{
         grid-column: 1/1;
         grid-row: 3/3;
         font-size: 0.4rem;
-        left: 105%;
+        left: 103.5%;
         top: 43%;
     }
 
