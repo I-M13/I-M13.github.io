@@ -714,8 +714,8 @@ a{
     }
 
     .contactbutton{
-        min-width: 33px;
-        max-width: 33px;
+        min-width: 35px;
+        max-width: 35px;
     }
 
     .joinbutton{
@@ -887,7 +887,7 @@ a{
         grid-column: 1/1;
         grid-row: 3/3;
         font-size: 0.4rem;
-        left: 103.5%;
+        left: 103%;
         top: 43%;
     }
 
@@ -927,7 +927,7 @@ a{
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         border-left: 10px solid #f8c134; 
-        left: 65%;
+        left: 70%;
         top: 47.5%;
     }
 
@@ -948,6 +948,7 @@ a{
     .whowearepara1{
         font-size: 0.7rem;
         max-width: 120px;
+        top: 15%;
         left: 25%;
     }
 
@@ -991,7 +992,7 @@ a{
         grid-column: 2/2;
         grid-row: 2/2;
         height: 10vh;
-        left: 25%;
+        left: 28.5%;
     }
 
     .learnmore{
@@ -1011,7 +1012,7 @@ a{
         top: 37%;
         min-height: 40px;
         max-height: 40px;
-        left: 16%;
+        left: 16.4%;
         text-align: center;
     }
 
@@ -1022,7 +1023,7 @@ a{
         font-size: 0.8rem;
         grid-column: 2/2;
         grid-row: 1/1;
-        left: 33%;
+        left: 38%;
         top: 70%;
         min-height: 20px;
         max-height: 20px;
@@ -1038,7 +1039,7 @@ a{
         max-height: 30px;
         padding: 0%;
         min-width: 100px;
-        left: 9%;
+        left: 6.5%;
         top: 45%;
     }
 
@@ -1071,29 +1072,29 @@ a{
     }
 
     .Newspara{
-        font-size: 0.55rem;
+        font-size: 0.5rem;
         max-width: 60px;
         left: 39.3%;
         bottom: 14%;
     }
 
     .Financepara{
-        font-size: 0.55rem;
+        font-size: 0.5rem;
         max-width: 60px;
         left: 69.2%;
     }
 
     .Podcastpara{
-        font-size: 0.55rem;
+        font-size: 0.5rem;
         max-width: 70px;
         left: 17%;
     }
 
     .Newsletterpara{
-        font-size: 0.55rem;
+        font-size: 0.5rem;
         max-width: 60px;
         left: 42%;
-        top: 45%;
+        top: 48%;
     }
 
     .newsroombutton{
