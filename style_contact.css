@@ -1,145 +1,263 @@
-header{
-    background-color: rgba(171, 234, 255, 0.8);
-    margin: 0%;
-    margin: 0px;
-    position: relative;
-    padding-top: 1vh;
-    padding-bottom: 0.1vh;
-}
 
 body{
     margin: 0%;
     padding: 0%;
-    background-color: #d6f5ff;
 }
 
-a{
-    margin: 0px;
+header{
+    background-color: #adeaff;
     padding: 1vw;
-    color: #2946bf;
-    position: relative;
-    left: 12vw;
-    opacity: 100%;
-    font-size: x-large;
 }
 
-.Contactcontainer{
+.headerlinks{
+    display: grid;
+    grid-template-columns: 1.75fr repeat(8, 1fr) 1.75fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+}
+
+.Home{
+    grid-column: 2/2;
+}
+
+.headerlinks > a{
+    color: #2946bf;
+}
+
+.maincontainer{
+    background-color: #d6f5ff;
+    display: grid;
+    grid-template-rows: 0.3fr 1.2fr 2.5fr 0.88fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.contactustitle{
+    color: #f8c134;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    font-size: 4rem;
+    margin-top: 0%;
+}
+
+.emailsquare{
+    position: relative;
+    top: 35%;
+    height: 210px;
+    width: 330px;
+    background-color: #2946bf;
+    grid-column: 1/1;
+    grid-row: 3/3;
+}
+
+.instasquare{
+    position: relative;
+    top: 35%;
+    height: 210px;
+    width: 330px;
+    background-color: #2946bf;
+    grid-column: 2/2;
+    grid-row: 3/3;
+}
+
+.linkedinsquare{
+    position: relative;
+    top: 35%;
+    height: 210px;
+    width: 330px;
+    background-color: #2946bf;
+    grid-column: 3/3;
+    grid-row: 3/3;
+}
+
+.emailoutline{
+    position: relative;
+    bottom: 17%;
+    z-index: 1;
+    grid-column: 1/1;
+    grid-row: 3/3;
+    height: 150px;
+    width: 260px;
+    border-right: #f8c134 solid 4px;
+    border-left: #f8c134 solid 4px;
+    border-top: 4px solid #f8c134;
+    border-bottom: 4px solid #f8c134;
+    border-radius: 5%;
+}
+
+.emailv1{
+    position: relative;
+    bottom: 47%;
+    z-index: 1;
+    grid-column: 1/1;
+    grid-row: 3/3;
+    height: 180px;
+    width: 180px;
+    border-bottom: 4px solid #f8c134;
+    border-left: #f8c134 solid 4px;
+    transform: rotate(-45deg);
+}
+
+.emailline1{
+    position: relative;
+    top: 150%;
+    z-index: 1;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    height: 105px;
+    width: 4px;
+    background-color: #f8c134;
+    transform: rotate(48deg);
+    right: 21.1%;
+}
+
+.emailline2{
+    position: relative;
+    top: 150%;
+    z-index: 1;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    height: 105px;
+    width: 4px;
+    background-color: #f8c134;
+    transform: rotate(-48deg);
+    left: 21.1%; 
+}
+
+.instaoutline{
+    position: relative;
+    z-index: 1;
+    bottom: 13%;
+    height: 170px;
+    width: 180px;
+    grid-column: 2/2;
+    grid-row: 3/3;
+    border-bottom: #f8c134 5px solid;
+    border-top: #f8c134 solid 5px;
+    border-left: #f8c134 solid 5px;
+    border-right: #f8c134 solid 5px;
+    border-radius: 15%;
+}
+
+.instacircle1{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    border-bottom: 5px solid #f8c134;
+    border-top: 5px solid #f8c134;
+    border-left: 5px solid #f8c134;
+    border-right: 5px solid #f8c134;
+    border-radius: 100%;
+    grid-column: 2/2;
+    grid-row: 3/3;
+    z-index: 1;
+    left: 16%;
+    bottom: 35%;
+}
+
+.instacircle2{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    border-bottom: 5px solid #f8c134;
+    border-top: 5px solid #f8c134;
+    border-left: 5px solid #f8c134;
+    border-right: 5px solid #f8c134;
+    border-radius: 100%;
+    grid-column: 2/2;
+    grid-row: 3/3;
+    z-index: 1;
+    bottom: 15%;
+}
+
+.instabox{
+    position: relative;
+    height: 85px;
+    width: 145px;
+    border-bottom: 5px solid #f8c134;
+    border-left: 5px solid #f8c134;
+    border-right: 5px solid #f8c134;
+    grid-column: 2/2;
+    grid-row: 3/3;
+    z-index: 1;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    bottom: 3%;
+}
+
+.instaline1{
+    position: relative;
+    height: 5px;
+    width: 37px;
+    background-color: #f8c134;
+    grid-column: 2/2;
+    grid-row: 3/3;
+    z-index: 1;
+    bottom: 20.5%;
+    right: 13.6%;
+}
+
+.instaline2{
+    position: relative;
+    height: 5px;
+    width: 34px;
+    background-color: #f8c134;
+    grid-column: 2/2;
+    grid-row: 3/3;
+    z-index: 1;
+    bottom: 20.5%;
+    left: 13.2%;
+}
+
+.linkedinicon{
+    position: relative;
+    grid-column: 3/3;
+    grid-row: 3/3;
+    z-index: 1;
+    color: #f8c134;
+    font-weight: 900;
+    font-size: 190px;
     padding: 0%;
     margin: 0%;
-    position: relative;
-    max-height: fit-content;
+    bottom: 20%;
 }
 
-.Insta{
-    position: absolute;
-    left: 43%;
-    width: 145px;
-    top: 65%;
-    opacity: 0;
-}
-
-.LinkedIn{
-    position: absolute;
-    left: 76.5%;
-    width: 143px;
-    top: 67%;
-    opacity: 0;
-}
-
-@media (max-width:450px) and (max-height:950px){
-    
-    body{
-        max-height: 30%;
-        max-width: 100%;
-    }
-
-    .bigcontact{
-        max-width: 99.9%;
-        max-height: min-content
-    }
-
-    header{
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        min-width: 100%;
-        max-width: 100%;
-    }
-
-    a{
-        font-size: 0.7rem;
-        margin: 0%;
-        max-width: 100%;
-        padding: 0%;
-        left: 2%;
-    }
-
-    .sponsor{
-        display: none;
-    }
-}
-
-
-.moreaboutus{
-    position: relative;
-    font-size: 1.75rem;
-    grid-column: 2/2;
-    grid-row: 1/1;
-    max-width: 90px;
-}
-
-
-.meetcom{
+.emailpara{
     position: relative;
     grid-column: 1/1;
-    grid-row: 2/2;
-    height: 10vh;
+    grid-row: 3/3;
+    z-index: 1;
+    top: 25%;
+    color: #f8c134;
+    font-size: 30px;
 }
 
-.contactus{
+.ouremail{
     position: relative;
-    grid-column: 2/2;
-    grid-row: 2/2;
-    height: 10vh;
-}
-
-.learnmore{
-    position: relative;
-    grid-column: 3/3;
-    grid-row: 2/2;
-    height: 10vh;
-}
-
-.meetcombutton{
-    position: relative;
-    color: black;
-    font-size: 1rem;
-    max-width: 350px;
     grid-column: 1/1;
     grid-row: 3/3;
-    top: 15%;
-    max-height: 100px;
+    z-index: 1;
+    top: 50%;
+    color: #f8c134;
+    font-size: 18px;
 }
 
-.contactus2{
+.instabutton{
     position: relative;
-    color: black;
-    min-width: 180px;
-    font-size: 1rem;
     grid-column: 2/2;
-    grid-row: 1/1;
-    right: 1%;
-    top: 75%;
-    max-height: 100px;
+    grid-row: 3/3;
+    z-index: 1;
+    color: #f8c134;
+    font-size: 30px;
+    top: 45%;
 }
 
-.learnmorebutton{
+.linkedinbutton{
     position: relative;
-    color: black;
-    font-size: 1.2rem;
-    max-width: 20px;
     grid-column: 3/3;
     grid-row: 3/3;
-    max-height: 30px;
-    padding: 0%;
+    z-index: 1;
+    color: #f8c134;
+    font-size: 30px;
+    top: 45%;
 }
