@@ -708,6 +708,18 @@ a{
         min-width: 100%;
     }
 
+    main{
+        min-width: 100%;
+    }
+
+    body{
+        min-width: 100%;
+    }
+
+    html{
+        min-width: 100%;
+    }
+
     nav{
         font-size: 0.4rem;
         grid-template-columns: 0.9fr repeat(8, 1fr) 1fr;
