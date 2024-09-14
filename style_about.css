@@ -1,0 +1,24 @@
+
+header{
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin:0px;
+    background-color: #966fd6;
+}
+
+h3{
+    color: white;
+    padding: 2%;
+    font-size:x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    color: white;
+    font-size: larger;
+}

@@ -13,7 +13,7 @@ header{
 
 nav{
     display: grid;
-    grid-template-columns: 1.75fr repeat(8, 1fr) 1.75fr;
+    grid-template-columns: 1.9fr repeat(8, 1fr) 1.75fr;
     grid-template-rows: 1fr;
     overflow: hidden;
     font-size: 1.2rem;
@@ -752,21 +752,21 @@ a{
 
     .hat{
         left: 5%;
-        height: 10%;
-        top: 6%;
+        height: 8%;
+        top: 3%;
     }
 
     .Uni{
         left: 20%;
-        font-size: 75%;
+        font-size: 60%;
         bottom: 1%;
         max-width: 70px;
     }
 
     .Man{
         max-width: 70px;
-        left: 21%;
-        font-size: 75%;
+        left: 20.5%;
+        font-size: 60%;
         bottom: 1%;
     }
 
@@ -1094,27 +1094,27 @@ a{
     }
 
     .Newspara{
-        font-size: 0.5rem;
+        font-size: 0.4rem;
         max-width: 60px;
         left: 42%;
         bottom: 14%;
     }
 
     .Financepara{
-        font-size: 0.5rem;
+        font-size: 0.45rem;
         max-width: 60px;
         left: 69.2%;
         top: 20%;
     }
 
     .Podcastpara{
-        font-size: 0.5rem;
-        max-width: 70px;
-        left: 14%;
+        font-size: 0.4rem;
+        max-width: 60px;
+        left: 16%;
     }
 
     .Newsletterpara{
-        font-size: 0.5rem;
+        font-size: 0.4rem;
         max-width: 60px;
         left: 42%;
         top: 48%;
