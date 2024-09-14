@@ -705,6 +705,7 @@ a{
 
     header{
         overflow: hidden;
+        min-width: 100%;
     }
 
     nav{
@@ -730,7 +731,6 @@ a{
     }
 
     .welcomecontainer{
-        max-width: 100%;
         min-width: 100%;
         grid-template-columns: 1fr;
         grid-template-rows: 0.4fr;
@@ -800,6 +800,7 @@ a{
     }
 
     .resourcescontainer{
+        min-width: 100%;
         display: grid;
         grid-template-columns: 1fr, 1fr,1fr;
         grid-template-rows: 1fr,1fr;
@@ -932,6 +933,7 @@ a{
     }
 
     .whowearecontainer{
+        min-width: 100%;
         overflow: hidden;
     }
 
@@ -960,6 +962,7 @@ a{
     }
 
     .moreaboutuscontainer{
+        min-width: 100%;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 0.5fr;
         overflow: hidden;
@@ -992,7 +995,7 @@ a{
         grid-column: 2/2;
         grid-row: 2/2;
         height: 10vh;
-        left: 28.5%;
+        left: 31.5%;
     }
 
     .learnmore{
@@ -1023,7 +1026,7 @@ a{
         font-size: 0.8rem;
         grid-column: 2/2;
         grid-row: 1/1;
-        left: 38%;
+        left: 35%;
         top: 70%;
         min-height: 20px;
         max-height: 20px;
@@ -1039,7 +1042,7 @@ a{
         max-height: 30px;
         padding: 0%;
         min-width: 100px;
-        left: 6.5%;
+        left: 1%;
         top: 45%;
     }
 
