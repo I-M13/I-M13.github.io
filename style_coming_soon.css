@@ -1,0 +1,17 @@
+body{
+    background-color: #2946bf;
+    color: #f8c134;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+
+h2{
+    text-align: center;
+}
