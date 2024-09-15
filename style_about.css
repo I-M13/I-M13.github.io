@@ -1,24 +1,20 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
 
 header{
-    background-color: white;
-    margin: 0;
-    padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: pink;
+    padding: 1vw;
 }
 
-body{
-    margin:0px;
-    background-color: #966fd6;
+nav{
+    display: grid;
+    grid-template-columns: 1.75fr repeat(8,1fr) 1.75fr;
+    grid-template-rows: 1fr;
+    place-items: center;
 }
 
-h3{
-    color: white;
-    padding: 2%;
-    font-size:x-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-ul{
-    color: white;
-    font-size: larger;
+.Home{
+    grid-column: 2/2;
 }
