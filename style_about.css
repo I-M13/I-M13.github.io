@@ -61,7 +61,7 @@ nav>a{
 .mainvisioncontainer{
     display: grid;
     grid-template-columns: 0.5fr 1fr;
-    grid-template-rows: 1.3fr 1fr 1fr 1fr 1.5fr;
+    grid-template-rows: 1.3fr 1fr 1fr 1fr 1.5fr 1.5fr;
 }
 
 .visioncontentbackground{
@@ -173,4 +173,49 @@ nav>a{
     padding-left: 1vw;
     left: 5%;
     color: #f8c134;
+}
+
+.locationcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1fr 0.5fr;
+    background-color: #d6f5ff;
+}
+
+.locationtitle{
+    position: relative;
+    grid-column: 1/1;
+    grid-row: 3/3;
+    font-size: 50px;
+    width: 460px;
+    padding-left: 1vw;
+    left: 35%;
+    bottom: 25%;
+    color: #f8c134;
+}
+
+.locationimg{
+    position: relative;
+    grid-column: 2/2;
+    grid-row: 3/3;
+    padding-right: 1vw;
+    bottom: 55%;
+    left: 25%;
+}
+
+.tri1{
+    grid-row: 1/3;
+    height: 0px;
+    width: 0px;
+    border-right: 360px solid transparent;
+    border-top: #05006c solid 350px;
+}
+
+.tri2{
+    grid-column: 3/4;
+    grid-row: 3/5;
+    height: 0px;
+    width: 0px;
+    border-left: 377px solid transparent;
+    border-bottom: #05006c solid 400px;
 }
