@@ -1066,7 +1066,7 @@ nav>a{
 
     .platformcontainer{
         display: grid;
-        grid-template-columns: 0.8fr 0.9fr;
+        grid-template-columns: 0.8fr 1.5fr;
         grid-template-rows: 0.2fr repeat(2, 1.5fr) 0.3fr;
     }
     
@@ -1077,7 +1077,7 @@ nav>a{
         grid-row: 2/2;
         position: relative;
         left: -4%;
-        top: 9%;
+        top: 15%;
         height: 50px;
         text-align: center;
     }
@@ -1088,7 +1088,7 @@ nav>a{
         padding-left: 1vw;
         grid-column: 1/1;
         grid-row: 2/2;
-        top: 28%;
+        top: 38%;
         height: 50px;
         text-align: center;
         left: -2%;
@@ -1100,8 +1100,8 @@ nav>a{
         padding-left: 1vw;
         grid-column: 1/1;
         grid-row: 2/2;
-        left: 5%;
-        top: 50%;
+        left: 20%;
+        top: 60%;
         height: 30px;
     }
     
@@ -1110,7 +1110,6 @@ nav>a{
         background-color: #bdefff;
         grid-column: 2/3;
         grid-row: 1/5;
-        left: 5%;
     }
     
     .brightbutton{
@@ -1232,7 +1231,7 @@ nav>a{
     .diversitycontainer{
         display: grid;
         grid-template-columns: 1fr 0.75fr;
-        grid-template-rows: 0.2fr repeat(2, 0.7fr) 0.25fr;
+        grid-template-rows: 0.2fr repeat(2, 1.5fr) 0.3fr;
     }
     
     .diversityheader1{
@@ -1390,6 +1389,378 @@ nav>a{
         top: 40%;
         width: 120px;
         height: 100px;
+        font-size: 7px;
+    }
+
+    .skillscontainer{
+        display: grid;
+        grid-template-columns: 0.75fr 1fr;
+        grid-template-rows: 0.2fr repeat(4, 1.5fr) 0.3fr;
+    }
+    
+    .skillsheader1{
+        font-size: 13px;
+        padding-left: 1vw;
+        grid-column: 1/1;
+        grid-row: 2/2;
+        position: relative;
+        top: 35%;
+        width: 50px;
+        left: 30%;
+        text-align: center;
+    }
+    
+    .skillsheader2{
+        position: relative;
+        font-size: 13px;
+        padding-left: 1vw;
+        grid-column: 1/1;
+        grid-row: 3/3;
+        width: 70px;
+        left: 25%;
+    }
+    
+    .skillsheader3{
+        position: relative;
+        font-size: 13px;
+        padding-left: 1vw;
+        grid-column: 1/1;
+        grid-row: 3/3;
+        width: 60px;
+        top: 55%;
+        left: 28%;
+    }
+    
+    .skillsheader4{
+        position: relative;
+        font-size: 13px;
+        padding-left: 1vw;
+        grid-column: 1/1;
+        grid-row: 4/4;
+        width: 55px;
+        top: 25%;
+        left: 30%;
+    }
+    
+    .skillsbackground{
+        background-color: #3c5cce;
+        grid-column: 2/3;
+        grid-row: 1/7;
+    }
+    
+    .Hvuebutton{
+        position: relative;
+        
+        grid-column: 2/2;
+        grid-row: 2/2;
+        font-size: 12px;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 15%;
+        width: 90px;
+        height: 60px;
+    }
+    
+    .Hvuepara{
+        position: relative;
+        grid-column: 2/2;
+        grid-row: 2/2;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 30%;
+        width: 140px;
+        height: 100px;
+        font-size: 7px;
+    }
+    
+    .psychobutton{
+        position: relative;
+        
+        grid-column: 2/2;
+        grid-row: 3/3;
+        font-size: 12px;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 15%;
+        width: 160px;
+        height: 60px;
+    }
+    
+    .psychopara{
+        position: relative;
+        grid-column: 2/2;
+        grid-row: 3/3;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 30%;
+        width: 140px;
+        height: 100px;
+        font-size: 7px;
+    }
+    
+    .assessbutton{
+        position: relative;
+        
+        grid-column: 2/2;
+        grid-row: 4/4;
+        font-size: 12px;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 19%;
+        width: 150px;
+        height: 60px;
+    }
+    
+    .assesspara{
+        position: relative;
+        grid-column: 2/2;
+        grid-row: 4/4;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 34%;
+        width: 150px;
+        height: 100px;
+        font-size: 7px;
+    }
+    
+    .IBMbutton{
+        position: relative;
+        
+        grid-column: 2/2;
+        grid-row: 5/5;
+        font-size: 12px;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 15%;
+        width: 140px;
+        height: 60px;
+    }
+    
+    .IBMpara{
+        position: relative;
+        grid-column: 2/2;
+        grid-row: 5/5;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 30%;
+        width: 150px;
+        height: 100px;
+        font-size: 7px;
+    }
+
+    .CCPBcontainer{
+        display: grid;
+        grid-template-columns: 1fr 0.75fr;
+        grid-template-rows: 0.2fr repeat(5, 1.5fr) 0.3fr;
+    }
+    
+    .CCPBheader1{
+        font-size: 13px;
+        padding-left: 1vw;
+        grid-column: 2/2;
+        grid-row: 2/2;
+        position: relative;
+        top: 35%;
+        width: 100px;
+        left: 22%;
+    }
+    
+    .CCPBheader2{
+        position: relative;
+        font-size: 13px;
+        padding-left: 1vw;
+        grid-column: 2/2;
+        grid-row: 3/3;
+        width: 90px;
+        left: 25%;
+    }
+    
+    .CCPBheader3{
+        position: relative;
+        font-size: 13px;
+        padding-left: 1vw;
+        grid-column: 2/2;
+        grid-row: 4/4;
+        bottom: 29%;
+        left: 23%;
+        width: 90px;
+    }
+    
+    .CCPBheader4{
+        position: relative;
+        font-size: 13px;
+        padding-left: 1vw;
+        grid-column: 2/2;
+        grid-row: 4/4;
+        bottom: 25%;
+        left: 23%;
+        width: 90px;
+        top: 29%;
+    }
+    
+    .CCPBbackground{
+        background-color: #2b449c;
+        grid-column: 1/2;
+        grid-row: 1/8;
+    }
+    
+    .CVbutton{
+        position: relative;
+        
+        grid-column: 1/1;
+        grid-row: 2/2;
+        font-size: 12px;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 15%;
+        width: 150px;
+        height: 60px;
+    }
+    
+    .CVpara{
+        position: relative;
+        grid-column: 1/1;
+        grid-row: 2/2;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 30%;
+        width: 120px;
+        height: 200px;
+        font-size: 7px;
+    }
+    
+    .Coverbutton{
+        position: relative;
+        grid-column: 1/1;
+        grid-row: 3/3;
+        font-size: 12px;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 15%;
+        width: 170px;
+        height: 60px;
+    }
+    
+    .Coverpara{
+        position: relative;
+        grid-column: 1/1;
+        grid-row: 3/3;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 30%;
+        width: 150px;
+        height: 200px;
+        font-size: 7px;
+    }
+    
+    .Linkedhelpbutton{
+        position: relative;
+        
+        grid-column: 1/1;
+        grid-row: 4/4;
+        font-size: 12px;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 19%;
+        width: 190px;
+        height: 60px;
+    }
+    
+    .Linkedhelppara{
+        position: relative;
+        grid-column: 1/1;
+        grid-row: 4/4;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 34%;
+        width: 130px;
+        height: 200px;
+        font-size: 7px;
+    }
+    
+    .PBbutton{
+        position: relative;
+        
+        grid-column: 1/1;
+        grid-row: 5/5;
+        font-size: 12px;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 15%;
+        width: 140px;
+        height: 60px;
+    }
+    
+    .PBpara{
+        position: relative;
+        grid-column: 1/1;
+        grid-row: 5/5;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 30%;
+        width: 130px;
+        height: 200px;
+        font-size: 7px;
+    }
+    
+    .Networkingbutton{
+        position: relative;
+        
+        grid-column: 1/1;
+        grid-row: 6/6;
+        font-size: 12px;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 15%;
+        width: 140px;
+        height: 60px;
+    }
+    
+    .Networkingpara{
+        position: relative;
+        grid-column: 1/1;
+        grid-row: 6/6;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 30%;
+        width: 130px;
+        height: 200px;
         font-size: 7px;
     }
     
