@@ -202,9 +202,6 @@ header{
 
 @media (max-width:450px) and (max-height:950px){
 
-    html{
-        max-height: min-content;
-    }
 
     .headerlinks{
         font-size: 0.4rem;
@@ -212,7 +209,7 @@ header{
     }
 
     .maincontainer{
-        grid-template-rows: 8fr 1.2fr 2.5fr 16.25fr;
+        grid-template-rows: 8fr 1.2fr 2.5fr 18.25fr;
     }
     
     .contactustitle{
