@@ -1024,6 +1024,10 @@ nav>a{
 
 @media (max-width:450px) and (max-height:950px){
 
+    html{
+        overflow: hidden;
+    }
+
     header{
         overflow: hidden;
     }
