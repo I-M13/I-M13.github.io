@@ -1446,7 +1446,7 @@ nav>a{
         padding-left: 1vw;
         grid-column: 1/1;
         grid-row: 3/3;
-        width: 60px;
+        width: 90px;
         top: 55%;
         left: 28%;
     }
@@ -1599,6 +1599,7 @@ nav>a{
         top: 35%;
         width: 100px;
         left: 22%;
+        text-align: center;
     }
     
     .CCPBheader2{
