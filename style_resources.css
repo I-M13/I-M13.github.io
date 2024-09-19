@@ -1073,7 +1073,7 @@ nav>a{
     .trap2{
         position: relative;
         height: 76px;
-        width: 195%;
+        width: 215%;
         grid-column: 1/1;
         grid-row: 1/1;
         border-top: 20px solid #05006c;
