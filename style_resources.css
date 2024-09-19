@@ -1032,7 +1032,19 @@ nav>a{
         font-size: 0.4rem;
         grid-template-columns: 0.9fr repeat(8, 1fr) 1fr;
     }
- 
+
+    .newsbutton{
+        width: 30px;
+    }
+
+    .contactbutton{
+        width: 33px;
+    }
+
+    .joinbutton{
+        width: 23px;
+    }
+
     .resourcestitle{
         position: relative;
         grid-column: 2/2;
