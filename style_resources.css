@@ -1035,14 +1035,20 @@ nav>a{
 
     .newsbutton{
         width: 30px;
+        position: relative;
+        right: 8%;
     }
 
     .contactbutton{
+        position: relative;
         width: 33px;
+        right: 5%;
     }
 
     .joinbutton{
         width: 23px;
+        position: relative;
+        left: 5%;
     }
 
     .resourcestitle{
