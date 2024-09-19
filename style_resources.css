@@ -1055,18 +1055,19 @@ nav>a{
     .trap2{
         position: relative;
         height: 76px;
-        width: 175%;
+        width: 195%;
         grid-column: 1/1;
         grid-row: 1/1;
         border-top: 20px solid #05006c;
         border-left: 38px solid transparent;
         border-right: solid transparent 0px;
         left: 100%;
+        overflow: hidden;
     }
 
     .platformcontainer{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 0.75fr 1fr;
         grid-template-rows: 0.2fr repeat(2, 1.5fr) 0.3fr;
     }
     
@@ -1124,7 +1125,7 @@ nav>a{
         padding-left: 1vw;
         left: 15%;
         top: 15%;
-        width: 100px;
+        width: 130px;
         height: 20px;
     }
     
