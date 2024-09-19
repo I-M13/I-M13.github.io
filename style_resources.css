@@ -1066,7 +1066,7 @@ nav>a{
 
     .platformcontainer{
         display: grid;
-        grid-template-columns: 0.8fr 1.5fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 0.2fr repeat(2, 1.5fr) 0.3fr;
     }
     
@@ -1242,7 +1242,7 @@ nav>a{
         position: relative;
         top: 5%;
         width: 90px;
-        left: 15%;
+        left: 17%;
         height: 30px;
     }
     
@@ -1253,7 +1253,7 @@ nav>a{
         grid-column: 2/2;
         grid-row: 2/2;
         width: 90px;
-        left: 20%;
+        left: 23%;
         height: 30px;
         top: 35%;
     }
@@ -1264,8 +1264,8 @@ nav>a{
         padding-left: 1vw;
         grid-column: 2/2;
         grid-row: 2/2;
-        left: 10%;
-        width: 90px;
+        left: 15%;
+        width: 120px;
         height: 30px;
         top: 60%;
     }
@@ -1386,7 +1386,7 @@ nav>a{
         font-weight: 600;
         padding-left: 1vw;
         left: 15%;
-        top: 40%;
+        top: 35%;
         width: 120px;
         height: 100px;
         font-size: 7px;
@@ -1567,7 +1567,7 @@ nav>a{
     .CCPBcontainer{
         display: grid;
         grid-template-columns: 1fr 0.75fr;
-        grid-template-rows: 0.2fr repeat(5, 1.5fr) 0.3fr;
+        grid-template-rows: 0.2fr repeat(3, 1.5fr) 0.3fr;
     }
     
     .CCPBheader1{
@@ -1586,9 +1586,10 @@ nav>a{
         font-size: 13px;
         padding-left: 1vw;
         grid-column: 2/2;
-        grid-row: 3/3;
+        grid-row: 2/2;
         width: 90px;
         left: 25%;
+        top: 60%;
     }
     
     .CCPBheader3{
@@ -1596,9 +1597,9 @@ nav>a{
         font-size: 13px;
         padding-left: 1vw;
         grid-column: 2/2;
-        grid-row: 4/4;
-        bottom: 29%;
-        left: 23%;
+        grid-row: 2/2;
+        top: 90%;
+        left: 32%;
         width: 90px;
     }
     
@@ -1607,17 +1608,17 @@ nav>a{
         font-size: 13px;
         padding-left: 1vw;
         grid-column: 2/2;
-        grid-row: 4/4;
+        grid-row: 3/3;
         bottom: 25%;
-        left: 23%;
+        left: 30%;
         width: 90px;
-        top: 29%;
+        top: 15%;
     }
     
     .CCPBbackground{
         background-color: #2b449c;
         grid-column: 1/2;
-        grid-row: 1/8;
+        grid-row: 1/6;
     }
     
     .CVbutton{
@@ -1643,7 +1644,7 @@ nav>a{
         font-weight: 600;
         padding-left: 1vw;
         left: 15%;
-        top: 30%;
+        top: 25%;
         width: 120px;
         height: 200px;
         font-size: 7px;
@@ -1652,6 +1653,187 @@ nav>a{
     .Coverbutton{
         position: relative;
         grid-column: 1/1;
+        grid-row: 2/2;
+        font-size: 12px;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 65%;
+        width: 170px;
+        height: 60px;
+    }
+    
+    .Coverpara{
+        position: relative;
+        grid-column: 1/1;
+        grid-row: 2/2;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 70%;
+        width: 120px;
+        height: 200px;
+        font-size: 7px;
+    }
+    
+    .Linkedhelpbutton{
+        position: relative;
+        
+        grid-column: 1/1;
+        grid-row: 3/3;
+        font-size: 12px;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 0%;
+        width: 190px;
+        height: 60px;
+    }
+    
+    .Linkedhelppara{
+        position: relative;
+        grid-column: 1/1;
+        grid-row: 3/3;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 7%;
+        width: 130px;
+        height: 200px;
+        font-size: 7px;
+    }
+    
+    .PBbutton{
+        position: relative;
+        
+        grid-column: 1/1;
+        grid-row: 3/3;
+        font-size: 12px;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 45%;
+        width: 170px;
+        height: 60px;
+    }
+    
+    .PBpara{
+        position: relative;
+        grid-column: 1/1;
+        grid-row: 3/3;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 55%;
+        width: 130px;
+        height: 200px;
+        font-size: 7px;
+    }
+    
+    .Networkingbutton{
+        position: relative;
+        
+        grid-column: 1/1;
+        grid-row: 3/3;
+        font-size: 12px;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 90%;
+        width: 140px;
+        height: 60px;
+    }
+    
+    .Networkingpara{
+        position: relative;
+        grid-column: 1/1;
+        grid-row: 4/4;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 0%;
+        width: 130px;
+        height: 100px;
+        font-size: 7px;
+    }
+
+    .reviewcontainer{
+        display: grid;
+        grid-template-columns: 0.75fr 1fr;
+        grid-template-rows: 0.2fr repeat(3, 1.5fr) 0.3fr;
+    }
+    
+    .reviewheader1{
+        font-size: 13px;
+        padding-left: 1vw;
+        grid-column: 1/1;
+        grid-row: 2/2;
+        position: relative;
+        top: 35%;
+        width: 150px;
+        left: 3%;
+        text-align: center;
+    }
+    
+    .reviewheader2{
+        position: relative;
+        font-size: 13px;
+        padding-left: 1vw;
+        grid-column: 1/1;
+        grid-row: 3/3;
+        width: 170px;
+        left: -5%;
+        text-align: center;
+    }
+    
+    
+    .reviewbackground{
+        background-color: #12229d;
+        grid-column: 2/3;
+        grid-row: 1/7;
+    }
+    
+    .ratebutton{
+        position: relative;
+        
+        grid-column: 2/2;
+        grid-row: 2/2;
+        font-size: 12px;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 15%;
+        width: 150px;
+        height: 60px;
+    }
+    
+    .ratepara{
+        position: relative;
+        grid-column: 2/2;
+        grid-row: 2/2;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 30%;
+        width: 150px;
+        height: 100px;
+        font-size: 7px;
+    }
+    
+    .glassbutton{
+        position: relative;
+        
+        grid-column: 2/2;
         grid-row: 3/3;
         font-size: 12px;
         color: #f8c134;
@@ -1659,11 +1841,131 @@ nav>a{
         padding-left: 1vw;
         left: 15%;
         top: 15%;
-        width: 170px;
+        width: 140px;
         height: 60px;
     }
     
-    .Coverpara{
+    .glasspara{
+        position: relative;
+        grid-column: 2/2;
+        grid-row: 3/3;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 30%;
+        width: 150px;
+        height: 100px;
+        font-size: 7px;
+    }
+    
+    .loungebutton{
+        position: relative;
+        
+        grid-column: 2/2;
+        grid-row: 4/4;
+        font-size: 12px;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 19%;
+        width: 150px;
+        height: 60px;
+    }
+    
+    .loungepara{
+        position: relative;
+        grid-column: 2/2;
+        grid-row: 4/4;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 34%;
+        width: 150px;
+        height: 100px;
+        font-size: 7px;
+    }
+
+    .currentcontainer{
+        display: grid;
+        grid-template-columns: 1fr 0.75fr;
+        grid-template-rows: 0.2fr repeat(4, 1.5fr) 0.3fr;
+    }
+    
+    .currentheader1{
+        font-size: 13px;
+        padding-left: 1vw;
+        grid-column: 2/2;
+        grid-row: 2/2;
+        position: relative;
+        top: 35%;
+        width: 50px;
+        left: 30%;
+    }
+    
+    .currentheader2{
+        position: relative;
+        font-size: 13px;
+        padding-left: 1vw;
+        grid-column: 2/2;
+        grid-row: 3/3;
+        width: 50px;
+        left: 32%;
+    }
+
+    .currentbackground{
+        background-color: #050a30;
+        grid-column: 1/2;
+        grid-row: 1/8;
+    }
+    
+    .snipbutton{
+        position: relative;
+        
+        grid-column: 1/1;
+        grid-row: 2/2;
+        font-size: 12px;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 15%;
+        width: 150px;
+        height: 60px;
+    }
+    
+    .snippara{
+        position: relative;
+        grid-column: 1/1;
+        grid-row: 2/2;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 30%;
+        width: 120px;
+        height: 100px;
+        font-size: 7px;
+    }
+    
+    .notesbutton{
+        position: relative;
+        
+        grid-column: 1/1;
+        grid-row: 3/3;
+        font-size: 12px;
+        color: #f8c134;
+        font-weight: 600;
+        padding-left: 1vw;
+        left: 15%;
+        top: 15%;
+        width: 160px;
+        height: 60px;
+    }
+    
+    .notespara{
         position: relative;
         grid-column: 1/1;
         grid-row: 3/3;
@@ -1672,12 +1974,12 @@ nav>a{
         padding-left: 1vw;
         left: 15%;
         top: 30%;
-        width: 150px;
-        height: 200px;
+        width: 120px;
+        height: 100px;
         font-size: 7px;
     }
     
-    .Linkedhelpbutton{
+    .CIObutton{
         position: relative;
         
         grid-column: 1/1;
@@ -1688,11 +1990,11 @@ nav>a{
         padding-left: 1vw;
         left: 15%;
         top: 19%;
-        width: 190px;
+        width: 150px;
         height: 60px;
     }
     
-    .Linkedhelppara{
+    .CIOpara{
         position: relative;
         grid-column: 1/1;
         grid-row: 4/4;
@@ -1701,12 +2003,12 @@ nav>a{
         padding-left: 1vw;
         left: 15%;
         top: 34%;
-        width: 130px;
-        height: 200px;
+        width: 120px;
+        height: 100px;
         font-size: 7px;
     }
     
-    .PBbutton{
+    .citybutton{
         position: relative;
         
         grid-column: 1/1;
@@ -1721,7 +2023,7 @@ nav>a{
         height: 60px;
     }
     
-    .PBpara{
+    .citypara{
         position: relative;
         grid-column: 1/1;
         grid-row: 5/5;
@@ -1730,37 +2032,8 @@ nav>a{
         padding-left: 1vw;
         left: 15%;
         top: 30%;
-        width: 130px;
-        height: 200px;
-        font-size: 7px;
-    }
-    
-    .Networkingbutton{
-        position: relative;
-        
-        grid-column: 1/1;
-        grid-row: 6/6;
-        font-size: 12px;
-        color: #f8c134;
-        font-weight: 600;
-        padding-left: 1vw;
-        left: 15%;
-        top: 15%;
-        width: 140px;
-        height: 60px;
-    }
-    
-    .Networkingpara{
-        position: relative;
-        grid-column: 1/1;
-        grid-row: 6/6;
-        color: #f8c134;
-        font-weight: 600;
-        padding-left: 1vw;
-        left: 15%;
-        top: 30%;
-        width: 130px;
-        height: 200px;
+        width: 120px;
+        height: 100px;
         font-size: 7px;
     }
     
