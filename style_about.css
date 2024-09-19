@@ -429,3 +429,30 @@ nav>a{
         border-bottom: #05006c solid 106px;
     }
 }
+
+@media (max-width: 1536px) and (min-width:1440px){
+
+    nav{
+        font-size: 1.5rem;
+    }
+
+    .visionpara{
+        font-size: 1.8rem;
+        top: 25%;
+    }
+
+    .missionpara{
+        font-size: 1.8rem;
+        top: 50%;
+    }
+
+    .goalspara{
+        font-size: 1.8rem;
+        top: 75%;
+    }
+
+    .tri2{
+        position: relative;
+        left: 25%;
+    }
+}

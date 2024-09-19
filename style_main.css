@@ -724,7 +724,6 @@ a{
     nav{
         font-size: 0.4rem;
         grid-template-columns: 0.9fr repeat(8, 1fr) 1fr;
-
     }
 
     .contactbutton{
@@ -1143,4 +1142,186 @@ a{
         top: 65%;
     }
     
+}
+
+@media (max-width: 1536px) and (min-width:1440px){
+    nav{
+        display: grid;
+        grid-template-columns: 1.5fr repeat(8, 1fr) 1.5fr;
+        grid-template-rows: 1fr;
+        overflow: hidden;
+        font-size: 1.5rem;
+        place-items: center;
+    }
+
+    .contactbutton{
+        min-width: 125px;
+    }
+
+    .joinbutton{
+        min-width: 110px;
+    }
+
+    .aboutusbutton{
+        min-width: 115px;
+    }
+
+    .hat{
+        height: 60px;
+        top: 15%;
+    }
+
+    .Uni{
+        font-size: 1.5rem;
+    }
+
+    .Man{
+        font-size: 1.5rem;
+    }
+
+    .Bsc{
+        font-size: 11rem;
+        bottom: 15%;
+    }
+
+    .Econ{
+        font-size: 11rem; 
+        top: 9%;
+    }
+
+    .Soc{
+        font-size: 11rem;
+        top: 33%;
+    }
+
+    .Triangle{
+        left: 45%;
+    }
+
+    .hands{
+        width: 480px;
+        height: 480px;
+        left: 65%;
+        bottom: 5%;
+    }
+
+    .resources{
+        font-size: 7rem;
+    }
+
+    .hex1{
+        height: 550px;
+        width: 435px;
+        left: -16%;
+        bottom: 50%;
+    }
+
+    .hex2{
+        height: 550px;
+        width: 435px;
+        left: 30%;
+    }
+
+    .hex3{
+        height: 550px;
+        width: 435px;
+        bottom: 45%;
+    }
+
+    .hexshadow1{
+        height: 550px;
+        width: 435px;
+        left: -12%;
+        bottom: 50%;
+    }
+
+    .hexshadow2{
+        height: 550px;
+        width: 435px;
+        left: 34%;
+    }
+
+    .hexshadow3{
+        height: 550px;
+        width: 435px;
+        bottom: 45%;
+    }
+
+    .Trackerpara{
+        font-size: 2.9rem;
+        max-width: 290px;
+        bottom: 30%;
+    }
+
+    .TrackerButton{
+        font-size: 2rem;
+        min-width: 290px;
+        left: -15%;
+    }
+
+    .Careerpara{
+        font-size: 2.9rem;
+        max-width: 300px;
+    }
+
+    .Careerbutton{
+        left: 50%;
+    }
+
+    .TrackerButton{
+        left: 7.8%;
+    }
+
+    .Trackerpara{
+        left: 5%;
+    }
+
+    .Mentalpara{
+        font-size: 2.9rem;
+        max-width: 335px;
+    }
+
+    .Mentalbutton{
+        left: -22%;
+    }
+
+    .more{
+        font-size: 2.9rem;
+    }
+
+    .arrowtip{
+        left: 50%;
+    }
+
+    .whowearetitle{
+        left: 19%;
+    }
+
+    .meetcombutton{
+        left: 9%;
+    }
+
+    .contactus2{
+        left: 28%;
+    }
+
+    .learnmorebutton{
+        left: 10%;
+    }
+
+    .newsroombutton{
+        left: 40.5%;
+    }
+
+    .podcastbutton2{
+        left: 22%;
+    }
+
+    .financebutton{
+        left: 66%;
+    }
+
+    .newsletterbutton{
+        left: 44%;
+    }
 }

@@ -12,6 +12,7 @@ nav{
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1.75fr repeat(8,1fr) 1.75fr;
+    place-items: center;
 }
 
 .Home{
@@ -2064,4 +2065,70 @@ nav>a{
         font-size: 7px;
     }
     
+}
+
+@media (max-width: 1536px) and (min-width:1440px){
+    .trap2{
+        left: 106%;
+    }
+
+    nav{
+        font-size: 1.55rem;
+    }
+
+    .platformheader1{
+        left: 15%;
+    }
+
+    .platformheader2{
+        left: 10%;
+    }
+
+    .platformheader3{
+        left: 25%;
+    }
+
+    .diversityheader1{
+        left: 20%;
+    }
+
+    .diversityheader2{
+        left: 25%;
+    }
+
+    .diversityheader3{
+        left: 16%;
+    }
+
+    .skillsheader1{
+        left: 18%;
+    }
+
+    .CCPBheader1{
+        left: 14%;
+    }
+
+    .CCPBheader2{
+        left: 21%;
+    }
+
+    .CCPBheader3{
+        left: 30%;
+    }
+
+    .CCPBheader4{
+        left: 29%;
+    }
+
+    .reviewheader1{
+        left: 20%;
+    }
+
+    .reviewheader2{
+        left: 25%;
+    }
+
+    .currentheader1{
+        left: 29%;
+    }
 }
