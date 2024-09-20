@@ -510,6 +510,7 @@ a{
     grid-row: 3/3;
     top: 15%;
     max-height: 100px;
+    left: 8%;
 }
 
 .contactus2{
@@ -522,6 +523,7 @@ a{
     right: 1%;
     top: 75%;
     max-height: 100px;
+    left: 30%;
 }
 
 .learnmorebutton{
@@ -532,7 +534,7 @@ a{
     grid-column: 3/3;
     grid-row: 3/3;
     top: 15%;
-    left: 8%;
+    left: 14%;
     max-height: 100px;
 }
 
