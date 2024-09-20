@@ -1250,63 +1250,118 @@ a{
     .Trackerpara{
         font-size: 2.9rem;
         max-width: 290px;
-        bottom: 30%;
+        bottom: 33%;
+        left: -5%;
     }
 
     .TrackerButton{
-        font-size: 2rem;
-        min-width: 290px;
-        left: -15%;
+        font-size: 2.3rem;
+        min-width: 390px;
+        left: -6.3%;
+        top: 25%;
     }
 
     .Careerpara{
         font-size: 2.9rem;
         max-width: 300px;
+        left: 40%;
     }
 
     .Careerbutton{
-        left: 50%;
-    }
-
-    .TrackerButton{
-        left: 7.8%;
-    }
-
-    .Trackerpara{
-        left: 5%;
+        left: 40%;
+        font-size: 2.9rem;
+        min-width: 350px;
     }
 
     .Mentalpara{
         font-size: 2.9rem;
         max-width: 335px;
+        bottom: 35%;
+        right: 23%;
     }
 
     .Mentalbutton{
-        left: -22%;
+        left: -19%;
+        font-size: 2.9rem;
+        top: 25%;
+        min-width: 350px;
     }
 
     .more{
-        font-size: 2.9rem;
+        font-size: 7rem;
     }
 
     .arrowtip{
-        left: 50%;
+        top: 48%;
+        left: 70%;
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        border-left: 60px solid #f8c134; 
+    }
+
+    .arrowbase{
+        height: 20px;
+        width: 250px;
+        top: 52%;
     }
 
     .whowearetitle{
-        left: 19%;
+        left: 14%;
+        font-size: 7rem;
+    }
+
+    .whoweareimg{
+        width: 95.6%;
+    }
+
+    .whowearepara1{
+        font-size: 3rem;
+        min-width: 500px;
+        top: 15%;
+    }
+
+    .whowearepara2{
+        font-size: 3rem;
+        min-width: 500px;
+        top: 60%;
+    }
+
+    .meetcom{
+        height: 350px;
+        width: 400px;
+        left: 5%;
+    }
+
+    .contactus{
+        height: 350px;
+        width: 400px;
+        left: 10%;
+    }
+
+    .learnmore{
+        height: 350px;
+        width: 400px;
+        left: 15%;
     }
 
     .meetcombutton{
-        left: 9%;
+        font-size: 3rem;
+        left: 1%;
+        top: 35%;
+        min-width: 450px;
     }
 
     .contactus2{
-        left: 28%;
+        left: 25%;
+        font-size: 3rem;
+        min-width: 300px;
     }
 
     .learnmorebutton{
-        left: 10%;
+        font-size: 3rem;
+        left: 25%;
+        min-width: 300px;
+        top: 35%;
     }
 
     .newsroombutton{
