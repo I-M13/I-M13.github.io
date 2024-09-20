@@ -1366,19 +1366,77 @@ a{
         top: 35%;
     }
 
+    .Newsupdates{
+        font-size: 7rem;
+        text-align: center;
+    }
+
+    .Newsroom{
+        height: 350px;
+        width: 350px;
+    }
+
+    .podcast2{
+        height: 350px;
+        width: 350px;
+        left: 10%;
+    }
+
+    .Newsletter2{
+        height: 350px;
+        width: 350px;
+    }
+
+    .ReutersFinance{
+        height: 350px;
+        width: 350px;
+    }
+
+    .Newspara{
+        font-size: 2.6rem;
+        min-width: 360px;
+        left: 35%;
+    }
+
+    .Podcastpara{
+        font-size: 2.7rem;
+        min-width: 300px;
+        left: 12%;
+        top: 18%;
+    }
+
+    .Financepara{
+        font-size: 2.7rem;
+        min-width: 300px;
+    }
+
+    .Newsletterpara{
+        font-size: 2.7rem;
+        min-width: 400px;
+        left: 36%;
+    }
+
     .newsroombutton{
-        left: 40.5%;
+        left: 41.3%;
+        font-size: 2.3rem;
+        min-width: 190px;
+        top: 7%;
     }
 
     .podcastbutton2{
-        left: 22%;
+        left: 19.3%;
+        font-size: 2.3rem;
+        top: 41.4%;
     }
 
     .financebutton{
-        left: 66%;
+        left: 65.3%;
+        font-size: 2.3rem;
+        min-width: 300px;
     }
 
     .newsletterbutton{
-        left: 44%;
+        left: 45%;
+        font-size: 2.3rem;
     }
 }
