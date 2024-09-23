@@ -1497,3 +1497,98 @@ a{
         left: 44.5%;
     }
 }
+
+@media (max-width: 1920px) and (min-width: 1536px){
+
+    nav{
+        font-size: 1.8rem;
+    }
+
+    .contactbutton{
+        min-width: 140px;
+    }
+
+    .joinbutton{
+        min-width: 110px;
+    }
+
+    .aboutusbutton{
+        min-width: 125px;
+    }
+
+    .con
+
+    .hat{
+        height: 70px;
+        top: 15%;
+    }
+
+    .Uni{
+        font-size: 1.5rem;
+    }
+
+    .Man{
+        font-size: 1.5rem;
+    }
+
+    .Bsc{
+        font-size:8rem ;
+    }
+
+    .Econ{
+        font-size: 8rem;
+    }
+
+    .Soc{
+        font-size: 8rem;
+    }
+
+    .hands{
+        height: 600px;
+        width: 600px;
+        left: 75%;
+    }
+
+    .Triangle{
+        left: 70%;
+    }
+
+    .resources{
+        font-size: 5rem;
+    }
+
+    .Trackerpara{
+        left: 4%;
+    }
+
+    .Careerpara{
+        left: 45%;
+    }
+
+    .Mentalpara{
+        right: 29%;
+    }
+
+    .TrackerButton{
+        left: 6.5%;
+    }
+
+    .Careerbutton{
+        left: 48%;
+    }
+
+    .Mentalbutton{
+        left: -26.5%;
+    }
+
+    .more{
+        font-size: 5rem;
+    }
+
+    .arrowbase{
+        height: 9px;
+        left: 28%;
+        width: 150px;
+        top:55%;
+    }
+}
