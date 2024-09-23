@@ -1440,3 +1440,60 @@ a{
         font-size: 2.3rem;
     }
 }
+
+@media (min-width: 1366px) and (max-width: 1440px){
+    .Uni{
+        font-size: 1.5rem;
+    }
+
+    .Man{
+        font-size: 1.5rem;
+    }
+
+    .hat{
+        top: 15%;
+        height: 70px;
+        left: 30%;
+    }
+
+    .Bsc{
+        font-size: 7rem;
+    }
+
+    .Econ{
+        font-size: 7rem;
+    }
+
+    .Soc{
+        font-size: 7rem;
+    }
+
+    .Triangle{
+        left: 24.5%;
+    }
+
+    .hands{
+        bottom: 10%;
+        left: 40%;
+    }
+
+    .learnmorebutton{
+        left: 10%;
+    }
+
+    .newsroombutton{
+        left: 40.8%;
+    }
+
+    .financebutton{
+        left: 66.5%;
+    }
+
+    .podcastbutton2{
+        left: 22.5%;
+    }
+
+    .newsletterbutton{
+        left: 44.5%;
+    }
+}
