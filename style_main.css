@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    max-width: fit-content;
 }
 
 header{
@@ -13,7 +14,7 @@ header{
 
 nav{
     display: grid;
-    grid-template-columns: 1.9fr repeat(8, 1fr) 1.75fr;
+    grid-template-columns: 1.75fr repeat(8, 1fr) 1.75fr;
     grid-template-rows: 1fr;
     overflow: hidden;
     font-size: 1.2rem;
@@ -167,13 +168,11 @@ a{
 }
 
 .Triangle {
-    width: 800px; 
-    height: 800px; 
-    background-color: #3177fd; 
-    clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
-    transform: rotate(180deg); 
     position: relative;
-    left: 11.8%;
+    left: 11.7%;
+    border-left: 50rem solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 40rem solid #3177fd;
     grid-column: 2/3;
     grid-row: 1/3;
 }
@@ -510,7 +509,6 @@ a{
     grid-row: 3/3;
     top: 15%;
     max-height: 100px;
-    left: 8%;
 }
 
 .contactus2{
@@ -523,7 +521,6 @@ a{
     right: 1%;
     top: 75%;
     max-height: 100px;
-    left: 30%;
 }
 
 .learnmorebutton{
@@ -534,7 +531,7 @@ a{
     grid-column: 3/3;
     grid-row: 3/3;
     top: 15%;
-    left: 14%;
+    left: 8%;
     max-height: 100px;
 }
 
@@ -707,44 +704,37 @@ a{
 
 @media (max-width:450px) and (max-height:950px){
 
+    html{
+        min-width: fit-content;
+        max-width: fit-content;
+    }
+
     header{
         overflow: hidden;
     }
 
-    main{
-        min-width: 100%;
-    }
-
-    body{
-        min-width: fit-content
-    }
-
-    html{
-        min-width: fit-content
-    }
-
     nav{
-        font-size: 0.4rem;
-        grid-template-columns: 0.9fr repeat(8, 1fr) 1fr;
+        font-size: 0.6rem;
     }
 
     .contactbutton{
-        min-width: 35px;
-        max-width: 35px;
+        min-width: 50px;
+        max-width: 50px;
     }
 
     .joinbutton{
-        min-width: 22px;
-        max-width: 22px;
+        min-width: 30px;
+        max-width: 30px;
         left: 0%;
     }
 
     .aboutusbutton{
-        min-width: 33px;
-        max-width: 33px;
+        min-width: 40px;
+        max-width: 40px;
     }
 
     .welcomecontainer{
+        max-width: 100%;
         min-width: 100%;
         grid-template-columns: 1fr;
         grid-template-rows: 0.4fr;
@@ -753,21 +743,19 @@ a{
 
     .hat{
         left: 5%;
-        height: 8%;
-        top: 3%;
+        height: 10%;
+        top: 6%;
     }
 
     .Uni{
         left: 20%;
-        font-size: 60%;
+        font-size: 75%;
         bottom: 1%;
-        max-width: 70px;
     }
 
     .Man{
-        max-width: 70px;
-        left: 20.5%;
-        font-size: 60%;
+        left: 21%;
+        font-size: 75%;
         bottom: 1%;
     }
 
@@ -780,8 +768,6 @@ a{
     }
 
     .Econ{
-        min-width: 150px;
-        max-width: 150px;
         font-size: 2rem;
         left: 5%;
         top: 47%;
@@ -798,25 +784,26 @@ a{
     }
 
     .Triangle {
-        width: 300px;
-        height: 300px;
+        border-left: 16rem solid transparent;
+        border-right: 0px solid transparent;
+        border-bottom: 15rem solid #3177fd;
         grid-column: 1/1;
         grid-row: 1/1;
-        left: 20%;
+        left: 45%;
+        max-width: fit-content
     }
 
     .hands{
         position: relative;
         grid-column: 1/1;
         grid-row: 1/1;
-        height: 180px;
-        width: 180px;
+        height: 150px;
+        width: 150px;
         top: 25%;
-        left: 45%;
+        left: 55%;
     }
 
     .resourcescontainer{
-        min-width: 100%;
         display: grid;
         grid-template-columns: 1fr, 1fr,1fr;
         grid-template-rows: 1fr,1fr;
@@ -876,7 +863,7 @@ a{
     .Trackerpara{
         grid-column: 1/1;
         grid-row: 3/3;
-        font-size: 0.6rem;
+        font-size: 0.75rem;
         max-width: 70px;
         left: 96%;
         top: -16%;
@@ -885,49 +872,48 @@ a{
     .Careerpara{
         grid-column: 2/2;
         grid-row: 2/2;
-        font-size: 0.6rem;
+        font-size: 0.75rem;
         max-width: 80px;
         left: 45%;
-        bottom: 10%;
     }
 
     .Mentalpara{
         grid-column: 3/3;
         grid-row: 3/3;
-        font-size: 0.6rem;
-        max-width: 70px;
-        right: 21%;
-        bottom: 25%;
+        font-size: 0.75rem;
+        max-width: 90px;
+        right: 30%;
+        bottom: 30%;
     }
 
     .TrackerButton{
         grid-column: 1/1;
         grid-row: 3/3;
-        font-size: 0.4rem;
-        left: 102%;
+        font-size: 0.5rem;
+        left: 100%;
         top: 43%;
     }
 
     .Careerbutton{
         grid-column: 2/2;
         grid-row: 2/2;
-        font-size: 0.4rem;
+        font-size: 0.5rem;
         top: 43%;
-        left: 56%;
+        left: 53%;
     }
 
     .Mentalbutton{
         grid-column: 3/3;
         grid-row: 3/3;
-        font-size: 0.4rem;
-        left: -13%;
+        font-size: 0.5rem;
+        left: -19%;
         top: 40%;
     }
 
     .more{
         grid-column: 3/3;
         grid-row: 2/2;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     .arrowbase{
@@ -944,18 +930,17 @@ a{
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         border-left: 10px solid #f8c134; 
-        left: 70%;
-        top: 47%;
+        left: 65%;
+        top: 47.5%;
     }
 
     .whowearecontainer{
-        min-width: 100%;
         overflow: hidden;
     }
 
     .whowearetitle{
         font-size: 1.5rem;
-        left: 20%;
+        left: 25%;
     }
 
     .whoweareimg{
@@ -964,21 +949,18 @@ a{
     }
 
     .whowearepara1{
-        font-size: 0.7rem;
-        max-width: 120px;
-        top: 15%;
-        left: 25%;
+        font-size: 1rem;
+        max-width: 200px;
+        left: 7%;
     }
 
     .whowearepara2{
-        font-size: 0.7rem;
-        max-width: 100px;
-        left: 25%;
-        top: 60%;
+        font-size: 1rem;
+        max-width: 200px;
+        left: 7%;
     }
 
     .moreaboutuscontainer{
-        min-width: 100%;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 0.5fr;
         overflow: hidden;
@@ -986,7 +968,7 @@ a{
 
     .moreaboutus{
         position: relative;
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         grid-column: 2/2;
         grid-row: 1/1;
         min-width: 190px;
@@ -994,7 +976,7 @@ a{
         max-height: 40px;
         padding: 0%;
         margin: 0%;
-        left: 10%;
+        left: 12%;
         top: 15%;
     }
 
@@ -1003,7 +985,7 @@ a{
         grid-column: 1/1;
         grid-row: 2/2;
         height: 10vh;
-        left: 20%;
+        left: 30%;
     }
 
     .contactus{
@@ -1011,7 +993,7 @@ a{
         grid-column: 2/2;
         grid-row: 2/2;
         height: 10vh;
-        left: 31.5%;
+        left: 40%;
     }
 
     .learnmore{
@@ -1019,19 +1001,19 @@ a{
         grid-column: 3/3;
         grid-row: 2/2;
         height: 10vh;
-        right: 9%;
+        left: 8%;
     }
     .meetcombutton{
         position: relative;
         color: black;
-        font-size: 0.8rem;
+        font-size: 1rem;
         max-width: 350px;
         grid-column: 1/1;
         grid-row: 3/3;
         top: 37%;
         min-height: 40px;
         max-height: 40px;
-        left: 16.4%;
+        left: 25%;
         text-align: center;
     }
 
@@ -1039,10 +1021,10 @@ a{
         position: relative;
         color: black;
         min-width: 80px;
-        font-size: 0.8rem;
+        font-size: 1rem;
         grid-column: 2/2;
         grid-row: 1/1;
-        left: 35%;
+        left: 39%;
         top: 70%;
         min-height: 20px;
         max-height: 20px;
@@ -1051,558 +1033,111 @@ a{
     .learnmorebutton{
         position: relative;
         color: black;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         max-width: 100px;
         grid-column: 3/3;
         grid-row: 3/3;
         max-height: 30px;
         padding: 0%;
         min-width: 100px;
-        left: -2%;
+        left: 1%;
         top: 45%;
     }
 
-    .Newsupdates{
-        font-size: 1.45rem;
-        max-height: 50px;
-        right: 5%;
-        bottom: 15%;
-        text-align: center;
-    }
-
-    .Newsroom{
-        height: 80px;
-        width: 80px;
-        left: 38%;
-    }
-
-    .ReutersFinance{
-        height: 80px;
-        width: 80px;
-        left: 65%;
-        top: 16.5%;
-    }
-
-    .podcast2{
-        height: 80px;
-        width: 80px;
-        left: 12%;
-    }
-
-    .Newsletter2{
-        height: 80px;
-        width: 80px;
-    }
-
-    .Newspara{
-        font-size: 0.4rem;
-        max-width: 60px;
-        left: 42%;
-        bottom: 14%;
-    }
-
-    .Financepara{
-        font-size: 0.45rem;
-        max-width: 60px;
-        left: 69.2%;
-        top: 20%;
-    }
-
-    .Podcastpara{
-        font-size: 0.4rem;
-        max-width: 60px;
-        left: 16%;
-    }
-
-    .Newsletterpara{
-        font-size: 0.4rem;
-        max-width: 60px;
-        left: 42%;
-        top: 48%;
-    }
-
-    .newsroombutton{
-        font-size: 0.4rem;
-        left: 46%;
-        top: 7%;
-    }
-
-    .financebutton{
-        font-size: 0.4rem;
-        left: 71%;
-    }
-
-    .podcastbutton2{
-        font-size: 0.4rem;
-        left: 22%;
-        top: 41%;
-    }
-
-    .newsletterbutton{
-        font-size: 0.4rem;
-        left: 46.7%;
-        top: 65%;
-    }
-    
 }
 
-@media (max-width: 860px) and (max-height:1180px){
-    .Triangle {
-        width: 500px; 
-        height: 500px; 
-        background-color: red; 
-        clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
-        transform: rotate(180deg); 
-        position: relative;
-        left: 11.8%;
-        grid-column: 2/3;
-        grid-row: 1/3;
-    }
-}
+@media (min-width:540px) and (max-width:859px){
 
-@media (max-width: 1536px) and (max-height:1440px){
-    nav{
-        display: grid;
-        grid-template-columns: 1.5fr repeat(8, 1fr) 1.5fr;
-        grid-template-rows: 1fr;
-        overflow: hidden;
-        font-size: 1.5rem;
-        place-items: center;
-    }
-
-    .contactbutton{
-        min-width: 125px;
-    }
-
-    .joinbutton{
-        min-width: 110px;
-    }
-
-    .aboutusbutton{
-        min-width: 115px;
-    }
-
-    .hat{
-        height: 60px;
-        top: 15%;
-    }
-
-    .Uni{
-        font-size: 1.5rem;
-    }
-
-    .Man{
-        font-size: 1.5rem;
-    }
-
-    .Bsc{
-        font-size: 11rem;
-        bottom: 15%;
-    }
-
-    .Econ{
-        font-size: 11rem; 
-        top: 9%;
-    }
-
-    .Soc{
-        font-size: 11rem;
-        top: 33%;
+    html{
+        min-width: fit-content;
+        max-width: fit-content;
     }
 
     .Triangle{
-        left: 45%;
+        left: 0%;
+        border-left: 56rem solid transparent;
+        border-bottom: 44rem solid #3177fd;
     }
 
     .hands{
-        width: 480px;
-        height: 480px;
-        left: 65%;
+        height: 450px;
+        width: 450px;
+    }
+
+}
+
+
+@media (min-width:860px) and (max-height:935px){
+
+    .welcomecontainer{
+        max-width: 100%;
+        min-width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 1fr;
+    }
+
+    html{
+        max-width: fit-content;
+        min-width: fit-content;
+    }
+
+    .locationcontainer{
+        max-height: 100px;
+    }
+
+    .hatcontainer{
+        max-height: 100px;
+    }
+
+
+    .Triangle{
+        border-left: 32rem solid transparent;
+        border-bottom: 45rem solid #3177fd;
+        left: 0%;
+    }
+
+    .hands{
+        width: 410px;
+        height: 410px;
+        left: -15%;
         bottom: 5%;
     }
+}
 
-    .resources{
-        font-size: 7rem;
+@media (min-width:1024px) and (max-width: 1200px){
+
+    html{
+        max-width: fit-content;
+        min-width: fit-content;
     }
 
-    .hex1{
-        height: 550px;
-        width: 435px;
-        left: -16%;
-        bottom: 50%;
+    .Triangle{
+        border-left: 32rem solid transparent;
+        border-bottom: 45rem solid #3177fd;
+        left: 74%;
     }
 
-    .hex2{
-        height: 550px;
-        width: 435px;
-        left: 30%;
-    }
-
-    .hex3{
-        height: 550px;
-        width: 435px;
-        bottom: 45%;
-    }
-
-    .hexshadow1{
-        height: 550px;
-        width: 435px;
-        left: -12%;
-        bottom: 50%;
-    }
-
-    .hexshadow2{
-        height: 550px;
-        width: 435px;
-        left: 34%;
-    }
-
-    .hexshadow3{
-        height: 550px;
-        width: 435px;
-        bottom: 45%;
-    }
-
-    .Trackerpara{
-        font-size: 2.9rem;
-        max-width: 290px;
-        bottom: 33%;
-        left: -5%;
-    }
-
-    .TrackerButton{
-        font-size: 2.3rem;
-        min-width: 390px;
-        left: -6.3%;
-        top: 25%;
-    }
-
-    .Careerpara{
-        font-size: 2.9rem;
-        max-width: 300px;
-        left: 40%;
-    }
-
-    .Careerbutton{
-        left: 40%;
-        font-size: 2.9rem;
-        min-width: 350px;
-    }
-
-    .Mentalpara{
-        font-size: 2.9rem;
-        max-width: 335px;
-        bottom: 35%;
-        right: 23%;
-    }
-
-    .Mentalbutton{
-        left: -19%;
-        font-size: 2.9rem;
-        top: 25%;
-        min-width: 350px;
-    }
-
-    .more{
-        font-size: 7rem;
-    }
-
-    .arrowtip{
-        top: 48%;
-        left: 70%;
-        border-top: 30px solid transparent;
-        border-bottom: 30px solid transparent;
-        border-left: 60px solid #f8c134; 
-    }
-
-    .arrowbase{
-        height: 20px;
-        width: 250px;
-        top: 52%;
-    }
-
-    .whowearetitle{
-        left: 14%;
-        font-size: 7rem;
-    }
-
-    .whoweareimg{
-        width: 95.6%;
-    }
-
-    .whowearepara1{
-        font-size: 3rem;
-        min-width: 500px;
-        top: 15%;
-    }
-
-    .whowearepara2{
-        font-size: 3rem;
-        min-width: 500px;
-        top: 60%;
-    }
-
-    .meetcom{
-        height: 350px;
+    .hands{
+        height: 400px;
         width: 400px;
-        left: 5%;
-    }
-
-    .contactus{
-        height: 350px;
-        width: 400px;
-        left: 10%;
-    }
-
-    .learnmore{
-        height: 350px;
-        width: 400px;
-        left: 15%;
+        left: 60%;
     }
 
     .meetcombutton{
-        font-size: 3rem;
-        left: 1%;
-        top: 35%;
-        min-width: 450px;
-    }
-
-    .contactus2{
-        left: 25%;
-        font-size: 3rem;
-        min-width: 300px;
-    }
-
-    .learnmorebutton{
-        font-size: 3rem;
-        left: 25%;
-        min-width: 300px;
-        top: 35%;
-    }
-
-    .Newsupdates{
-        font-size: 7rem;
-        text-align: center;
-    }
-
-    .Newsroom{
-        height: 350px;
-        width: 350px;
-    }
-
-    .podcast2{
-        height: 350px;
-        width: 350px;
-        left: 10%;
-    }
-
-    .Newsletter2{
-        height: 350px;
-        width: 350px;
-    }
-
-    .ReutersFinance{
-        height: 350px;
-        width: 350px;
-    }
-
-    .Newspara{
-        font-size: 2.6rem;
-        min-width: 360px;
-        left: 35%;
-    }
-
-    .Podcastpara{
-        font-size: 2.7rem;
-        min-width: 300px;
-        left: 12%;
-        top: 18%;
-    }
-
-    .Financepara{
-        font-size: 2.7rem;
-        min-width: 300px;
-    }
-
-    .Newsletterpara{
-        font-size: 2.7rem;
         min-width: 400px;
-        left: 36%;
-    }
-
-    .newsroombutton{
-        left: 41.3%;
-        font-size: 2.3rem;
-        min-width: 190px;
-        top: 7%;
-    }
-
-    .podcastbutton2{
-        left: 19.3%;
-        font-size: 2.3rem;
-        top: 41.4%;
-    }
-
-    .financebutton{
-        left: 65.3%;
-        font-size: 2.3rem;
-        min-width: 300px;
-    }
-
-    .newsletterbutton{
-        left: 45%;
-        font-size: 2.3rem;
+        left: 9%;
     }
 }
 
-@media (min-width: 1366px) and (max-width: 1440px){
-    .Uni{
-        font-size: 1.5rem;
-    }
 
-    .Man{
-        font-size: 1.5rem;
-    }
-
-    .hat{
-        top: 15%;
-        height: 70px;
-        left: 30%;
-    }
-
-    .Bsc{
-        font-size: 7rem;
-    }
-
-    .Econ{
-        font-size: 7rem;
-    }
-
-    .Soc{
-        font-size: 7rem;
-    }
-
+@media (min-width:1300px) and (max-width:1500px){
     .Triangle{
-        left: 24.5%;
-    }
-
-    .hands{
-        bottom: 10%;
-        left: 40%;
-    }
-
-    .learnmorebutton{
-        left: 10%;
-    }
-
-    .newsroombutton{
-        left: 40.8%;
-    }
-
-    .financebutton{
-        left: 66.5%;
-    }
-
-    .podcastbutton2{
         left: 22.5%;
     }
 
-    .newsletterbutton{
-        left: 44.5%;
-    }
-}
-
-@media (max-width: 1920px) and (min-width: 1536px){
-
-    nav{
-        font-size: 1.8rem;
-    }
-
-    .contactbutton{
-        min-width: 140px;
-    }
-
-    .joinbutton{
-        min-width: 110px;
-    }
-
-    .aboutusbutton{
-        min-width: 125px;
-    }
-
-    .con
-
-    .hat{
-        height: 70px;
-        top: 15%;
-    }
-
-    .Uni{
-        font-size: 1.5rem;
-    }
-
-    .Man{
-        font-size: 1.5rem;
-    }
-
-    .Bsc{
-        font-size:8rem ;
-    }
-
-    .Econ{
-        font-size: 8rem;
-    }
-
-    .Soc{
-        font-size: 8rem;
-    }
-
     .hands{
-        height: 600px;
-        width: 600px;
-        left: 75%;
-    }
-
-    .Triangle{
-        left: 70%;
-    }
-
-    .resources{
-        font-size: 5rem;
-    }
-
-    .Trackerpara{
-        left: 4%;
-    }
-
-    .Careerpara{
-        left: 45%;
-    }
-
-    .Mentalpara{
-        right: 29%;
-    }
-
-    .TrackerButton{
-        left: 6.5%;
-    }
-
-    .Careerbutton{
-        left: 48%;
-    }
-
-    .Mentalbutton{
-        left: -26.5%;
-    }
-
-    .more{
-        font-size: 5rem;
-    }
-
-    .arrowbase{
-        height: 9px;
-        left: 28%;
-        width: 150px;
-        top:55%;
+        height: 400px;
+        width: 400px;
+        left: 55%;
     }
 }
