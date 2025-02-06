@@ -1146,7 +1146,21 @@ a{
     
 }
 
-@media (max-width: 1536px) and (min-width:1440px){
+@media (max-width: 860px) and (max-height:1180px){
+    .Triangle {
+        width: 500px; 
+        height: 500px; 
+        background-color: red; 
+        clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+        transform: rotate(180deg); 
+        position: relative;
+        left: 11.8%;
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+}
+
+@media (max-width: 1536px) and (max-height:1440px){
     nav{
         display: grid;
         grid-template-columns: 1.5fr repeat(8, 1fr) 1.5fr;
