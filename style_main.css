@@ -706,7 +706,6 @@ a{
 
     html{
         min-width: fit-content;
-        max-width: fit-content;
     }
 
     header{
@@ -751,12 +750,14 @@ a{
         left: 20%;
         font-size: 75%;
         bottom: 1%;
+        max-width: 20%;
     }
 
     .Man{
         left: 21%;
         font-size: 75%;
         bottom: 1%;
+        max-width: 12%;
     }
 
     .Bsc{
@@ -941,6 +942,7 @@ a{
     .whowearetitle{
         font-size: 1.5rem;
         left: 25%;
+        max-height: 50px;
     }
 
     .whoweareimg{
@@ -951,13 +953,16 @@ a{
     .whowearepara1{
         font-size: 1rem;
         max-width: 200px;
+        max-height: 120px;
         left: 7%;
     }
 
     .whowearepara2{
         font-size: 1rem;
         max-width: 200px;
+        min-height: 180px;
         left: 7%;
+        top: 65%;
     }
 
     .moreaboutuscontainer{
@@ -1034,7 +1039,7 @@ a{
         position: relative;
         color: black;
         font-size: 1.2rem;
-        max-width: 100px;
+        max-width: 90px;
         grid-column: 3/3;
         grid-row: 3/3;
         max-height: 30px;
@@ -1047,7 +1052,7 @@ a{
     .Newsletter2{
         height: 60px;
         width: 60px;
-        left: 50%;
+        left: 41%;
     }
 
     .podcast2{
@@ -1058,20 +1063,20 @@ a{
     .Newsroom{
         height: 60px;
         width: 60px;
-        left: 50%;
+        left: 40%;
     }
 
     .ReutersFinance{
         height: 60px;
         width: 60px;
-        left: 90%;
+        left: 65%;
     }
 
     .Newsupdates{
         font-size: 1.5rem;
-        min-width: 300px;
+        max-width: 70px;
         max-height: 200px;
-        left: 45%;
+        left: 20%;
     }
 
     .Podcastpara{
@@ -1082,23 +1087,25 @@ a{
     .Newspara{
         font-size: 0.4rem;
         max-width: 50px;
-        left: 53%;
+        left: 42%;
     }
 
     .Financepara{
         font-size: 0.4rem;
         max-width: 50px;
-        left: 93%;
+        left: 68%;
     }
 
     .Newsletterpara{
         font-size: 0.4rem;
         max-width: 50px;
-        left: 53%;
+        left: 44%;
     }
 
     .newsroombutton{
         font-size: 0.4rem;
+        left: 44%;
+        top: 5%;
     }
 
     .podcastbutton2{
@@ -1107,11 +1114,12 @@ a{
 
     .financebutton{
         font-size: 0.4rem;
-        left: 90%;
+        left: 67.5%;
     }
 
     .newsletterbutton{
         font-size: 0.4rem;
+        left: 46%;
     }
 
 }
